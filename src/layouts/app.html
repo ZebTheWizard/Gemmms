@@ -1,0 +1,22 @@
+---
+title: Blog
+background: bg-indigo-300
+---
+
+<!doctype html>
+<html lang="en" class="{{ background }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/app.min.css" />
+    </head>
+    <body>
+        <main class="max-w-[70ch] w-full mx-auto space-y-12">
+            <h1 class="title">{{ title }}</h1>
+            {{ content | toc }}
+            <hr />
+            <article>{{ content }}</article>
+        </main>
+    </body>
+</html>

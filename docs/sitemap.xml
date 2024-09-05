@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en" class="bg-indigo-300">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="/app.min.css" />
+    </head>
+    <body>
+        <main class="max-w-[70ch] w-full mx-auto space-y-12">
+            <h1 class="title">Blog</h1>
+            
+            <hr />
+            <article><?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>/404.html</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/snowboarding/</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/snowboarding/shop/</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/www/</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>/fr/snowboarding/</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>/fr/www/</loc>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+</urlset>
+</article>
+        </main>
+    </body>
+</html>
