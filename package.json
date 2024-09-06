@@ -21,6 +21,7 @@
     "cookie": "^0.6.0",
     "date-fns": "^3.6.0",
     "eleventy-plugin-toc": "^1.1.5",
+    "lodash": "^4.17.21",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.1.0"
   }

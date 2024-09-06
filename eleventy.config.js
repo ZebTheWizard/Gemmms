@@ -3,11 +3,12 @@ const path = require("path");
 const markdownit = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const tocPlugin = require("eleventy-plugin-toc");
+const { shuffle } = require("lodash");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary(
     "md",
-    markdownit().use(anchor, {
+    markdownit({ html: true, breaks: false, linkify: true }).use(anchor, {
       permalink: anchor.permalink.linkInsideHeader({
         space: false,
         symbol: `
@@ -22,7 +23,7 @@ module.exports = function (eleventyConfig) {
     wrapperClass: "toc no-print",
   });
 
-  eleventyConfig.addPassthroughCopy("src/**/*.{min\\.css,txt,xsl}");
+  eleventyConfig.addPassthroughCopy("src/**/*.{min\\.css,txt,xsl,svg}");
 
   eleventyConfig.setLiquidOptions({
     root: [
@@ -43,6 +44,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("toUrl", (obj) => {
+    console.log(obj.data);
     const [_, locale, subdomain, ...rest] = obj.url.split("/");
     const url = `https://${subdomain || "www"}.${process.env.APP_DOMAIN}/${locale}/${rest.join("/")}`;
     return url;

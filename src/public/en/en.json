@@ -3,5 +3,6 @@
   "locale": "en",
   "layout": "app.html",
   "suggest": true,
-  "suggestions": true
+  "suggestions": true,
+  "toc": true
 }
