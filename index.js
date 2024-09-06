@@ -15,7 +15,7 @@ const tryFiles = async (url, base, files) => {
 };
 
 const withDb = async (callback) => {
-  const db = new Database("db.sqlite", { create: true, strict: true });
+  const db = new Database("data/db.sqlite", { create: true, strict: true });
   try {
     return await callback(db);
   } finally {
@@ -118,7 +118,7 @@ export default {
                 .prepare(
                   `
                 SELECT
-                    pathname,
+                    pathname, start,
                     day0, day1, day2, day3, day4, day5, day6,
                     (day0 + day1 + day2 + day3 + day4 + day5 + day6) AS total_views
                 FROM

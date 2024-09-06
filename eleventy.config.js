@@ -42,6 +42,26 @@ module.exports = function (eleventyConfig) {
     return `${year}-${month}-${day}`;
   });
 
+  eleventyConfig.addFilter("toUrl", (obj) => {
+    const [_, locale, subdomain, ...rest] = obj.url.split("/");
+    const url = `https://${subdomain || "www"}.${process.env.APP_DOMAIN}/${locale}/${rest.join("/")}`;
+    return url;
+  });
+
+  eleventyConfig.addFilter("shuffle", (arr) => {
+    if (arr) {
+      return shuffle(arr);
+    }
+  });
+
+  eleventyConfig.addFilter("alphabetic", (arr) => {
+    if (arr) {
+      return arr.sort((a, b) => {
+        return a.data.title.localeCompare(b.data.title);
+      });
+    }
+  });
+
   return {
     dir: {
       includes: "../includes",

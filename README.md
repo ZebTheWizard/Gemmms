@@ -30,13 +30,6 @@ Only because if I were you, I'd want to see what I'm getting into. Food for thou
 ![img](src/public/img/screenshot-3.jpg)
 ![img](src/public/img/screenshot-4.jpg)
 
-## Advanced
-This step is optional and only necessary if you want to rewrite URLs. Doing so means your content depends on a server and will ultimately cost money to publish. Hosting static content for free is possible if you search around, yet "compute" is what you desire.
-
-1. Run `bun index.js`
-2. Modify server to fit your needs
-3. Publish
-
 ## Stack
 Oh yes how could this be forgotten. Chione is built on the following technologies:
 * Bun
@@ -49,6 +42,32 @@ Oh yes how could this be forgotten. Chione is built on the following technologie
 * CSS
   * PostCSS
   * TailwindCSS
+
+## Advanced
+This step is optional and only necessary if you want to rewrite URLs. Doing so means your content depends on a server and will ultimately cost money to publish. Hosting static content for free is possible if you search around, yet "compute" is what you desire.
+
+1. Run `bun index.js`
+2. Modify server to fit your needs
+3. Publish
+
+## More Advanced
+Feel free to deploy using docker. There are many ways to do this. The project contains a simple `Dockerfile` and `docker-compose.yml` file. You may wish to modify these files to fit your needs.
+
+Since data management becomes more complex and expensive with Docker you may wish to backup your data inside a pre-commit hook:
+```bash
+#!/bin/bash
+export APP_DOMAIN="example.com"
+export APP_USERNAME="admin"
+export APP_PASSWORD="password"
+
+./build.sh
+
+mkdir -p stats
+curl -H "Authorization: Basic $(echo -n $APP_USERNAME:$APP_PASSWORD | base64)" https://$APP_DOMAIN/_views > "stats/$(date +'%Y%m%d%H%M%S').json"
+
+git add .
+```
+
 
 ## Purpose
 This project aims to provide ground for thoughts. Please be mindful.
