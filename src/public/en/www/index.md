@@ -1,6 +1,7 @@
 ---
 title: Gemmms
 toc: false
+suggestions: false
 eleventyExcludeFromCollections:
   - {{ locale }}
 ---
