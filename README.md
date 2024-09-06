@@ -46,8 +46,9 @@ Oh yes how could this be forgotten. Chione is built on the following technologie
   * Static Site Generation
   * Markdown
   * Templating (Liquid, Nunjucks, EJS, etc.)
-* Vite
-  * Asset Bundling
+* CSS
+  * PostCSS
+  * TailwindCSS
 
 ## Purpose
 This project aims to provide ground for thoughts. Please be mindful.
