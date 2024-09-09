@@ -153,7 +153,7 @@ export default {
 
     if (locales.includes(language.toLowerCase())) {
       if (!segments?.length) {
-        return Response.redirect(`/${language}`, 302);
+        return Response.redirect(`/${language}`, 301);
       }
 
       const filePath = join(

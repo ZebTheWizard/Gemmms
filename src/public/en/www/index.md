@@ -2,6 +2,7 @@
 title: Home
 toc: false
 suggestions: false
+canonical: https://www.gemmms.com/en
 eleventyExcludeFromCollections:
   - {{ locale }}
 ---

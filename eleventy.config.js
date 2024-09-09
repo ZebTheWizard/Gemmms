@@ -50,6 +50,12 @@ module.exports = function (eleventyConfig) {
     return url.replaceAll(/\/$/g, "");
   });
 
+  eleventyConfig.addFilter("toThumb", (obj) => {
+    const [_, locale, subdomain, ...rest] = obj.url.split("/");
+    const url = `https://${subdomain || "www"}.${process.env.APP_DOMAIN}/img/illustrations/${obj.fileSlug}/thumb@256x256.webp`;
+    return url.replaceAll(/\/$/g, "");
+  });
+
   eleventyConfig.addFilter("shuffle", (arr) => {
     if (arr) {
       return shuffle(arr);
