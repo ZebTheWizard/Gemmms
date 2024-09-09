@@ -11,6 +11,20 @@ background: bg-indigo-300
         <title>{{ title }}</title>
         <link rel="stylesheet" href="/app.min.css" />
     </head>
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-XPNHWSC497"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-XPNHWSC497");
+    </script>
     <body>
         <main class="max-w-[70ch] w-full mx-auto space-y-12">
             {% if back %}
