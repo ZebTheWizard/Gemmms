@@ -44,7 +44,6 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("toUrl", (obj) => {
-    console.log(obj.data);
     const [_, locale, subdomain, ...rest] = obj.url.split("/");
     const url = `https://${subdomain || "www"}.${process.env.APP_DOMAIN}/${locale}/${rest.join("/")}`;
     return url.replaceAll(/\/$/g, "");

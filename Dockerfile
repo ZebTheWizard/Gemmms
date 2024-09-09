@@ -2,6 +2,8 @@ FROM oven/bun
 
 WORKDIR /usr/src/app
 
+RUN apt-get update -qq && apt-get install ffmpeg -y
+
 COPY build.sh ./
 
 # # Dependency layer
@@ -10,8 +12,6 @@ COPY package.json ./
 COPY index.js ./
 
 RUN bun install --verbose
-
-COPY ./docs ./docs
 
 # # Build layer
 RUN bun build:compile
