@@ -25,6 +25,6 @@ COPY src ./src
 
 RUN ./build.sh
 
-RUN ls -la ./docs/img/illustrations
+RUN ls -la ./docs/img/illustrations/amethyst
 
 CMD ["./server"]
