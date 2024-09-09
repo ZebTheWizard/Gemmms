@@ -4,10 +4,12 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-{%- for page in collections.all %}
+{%- for page in collections.gems %}
 	<url>
 		<loc>{{ page | toUrl }}</loc>
 		<lastmod>{{ page.date | htmlDateString }}</lastmod>
+		<priority>{{ page.data.priority }}</priority>
+		<changefreq>daily</changefreq>
 	</url>
 {%- endfor %}
 </urlset>

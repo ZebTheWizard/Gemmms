@@ -1,4 +1,6 @@
 {
   "tags": ["gems"],
-  "layout": "gems"
+  "layout": "gems",
+  "priority": 0.9,
+  "date": "Last Modified"
 }
