@@ -25,4 +25,6 @@ COPY src ./src
 
 RUN ./build.sh
 
+RUN ls -la ./docs/img/illustrations
+
 CMD ["./server"]
