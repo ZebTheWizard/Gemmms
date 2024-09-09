@@ -21,7 +21,7 @@ background: bg-indigo-300
             {% if suggestions %}
             <hr />
             <article>
-                <h2>Other Gems</h2>
+                <h3>Checkout these gems instead</h3>
                 {%- assign suggestions = collections.gems | shuffle -%}
                 <ul>
                     {% for page in suggestions limit:10 %}{% if
