@@ -23,7 +23,7 @@ for filename in src/public/img/illustrations/*.webp; do
     fi
 
     mkdir -p "$docs"
-    cp -R "$cache/" "$docs"
+    cp -r "$cache/." "$docs/"
 done
 
 APP_DOMAIN="${APP_DOMAIN:=gemmms.com}" bun x @11ty/eleventy --input $INPUT_DIR --output $OUTPUT_DIR "$@"
