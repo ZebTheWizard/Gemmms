@@ -23,7 +23,9 @@ module.exports = function (eleventyConfig) {
     wrapperClass: "toc no-print",
   });
 
-  eleventyConfig.addPassthroughCopy("src/**/*.{min\\.css,txt,xsl,svg}");
+  eleventyConfig.addPassthroughCopy(
+    "src/**/*.{min\\.css,txt,xsl,svg,webmanifest,png,ico}",
+  );
 
   eleventyConfig.setLiquidOptions({
     root: [
