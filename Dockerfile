@@ -11,6 +11,7 @@ COPY index.js ./
 
 RUN bun install --verbose
 
+COPY ./docs ./docs
 
 # # Build layer
 RUN bun build:compile
