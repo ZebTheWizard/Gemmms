@@ -13,6 +13,29 @@ background: bg-indigo-300
     </head>
     <body>
         <main class="max-w-[70ch] w-full mx-auto space-y-12">
+            {% if back %}
+            <a
+                href="{{back[0]}}"
+                class="text-blue-500 flex items-center space-x-1"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 19.5 8.25 12l7.5-7.5"
+                    />
+                </svg>
+
+                {{back[1]}}
+            </a>
+            {% endif %}
             <h1 class="title">{{ title }}</h1>
             {% if toc %} {{ content | toc }}
             <hr />
@@ -33,6 +56,20 @@ background: bg-indigo-300
                 </ul>
             </article>
             {% endif %}
+            <hr />
         </main>
+
+        <footer class="max-w-[70ch] w-full mx-auto space-y-3 mt-12">
+            <p class="m-0">
+                Illustrations provided by
+                <a href="https://openai.com/index/dall-e-3/" target="_blank"
+                    >DALL-E 3</a
+                >, World map provided by
+                <a href="https://simplemaps.com/" target="_blank">SimpleMaps</a>
+            </p>
+            <p class="m-0">
+                &COPY; {{ page.date | date: "%Y" }}. All rights reserved.
+            </p>
+        </footer>
     </body>
 </html>

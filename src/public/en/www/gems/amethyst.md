@@ -19,4 +19,8 @@ emotional: ["Anger", "Anxiety", "Balance", "Calming", "Courage", "Decision Makin
 spiritual: ["Astral Travel", "Awareness", "Communication", "Connecting with Higher Realms", "Enhancing Psychic Abilities", "Inner Peace", "Meditation", "Mediumship", "Protection", "Psychic Abilities", "Psychic Protection", "Raising Vibration", "Releasing Attachments", "Spiritual Protection", "Visualization"]
 ---
 
-Amethyst is a powerful and protective crystal with a high spiritual vibration. It is a natural tranquilizer that relieves stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear, and anxiety. Amethyst activates spiritual awareness, opens intuition, and enhances psychic abilities. It has strong healing and cleansing powers and enhances spiritual awareness. Amethyst encourages sobriety, having a sobering effect on overindulgence of alcohol, drugs, or other addictions. It calms and stimulates the mind, helping you become more focused, enhancing memory, and improving motivation. Amethyst assists in remembering and understanding dreams. It relieves insomnia. Encourages selflessness and spiritual wisdom.
+Amethyst is a powerful and protective crystal with a high spiritual vibration. It is a natural tranquilizer that relieves stress and strain, soothes irritability, balances mood swings, dispels anger, rage, fear, and anxiety.
+
+Amethyst activates spiritual awareness, opens intuition, and enhances psychic abilities. It has strong healing and cleansing powers and enhances spiritual awareness. Amethyst encourages sobriety, having a sobering effect on overindulgence of alcohol, drugs, or other addictions.
+
+It calms and stimulates the mind, helping you become more focused, enhancing memory, and improving motivation. Amethyst assists in remembering and understanding dreams. It relieves insomnia. Encourages selflessness and spiritual wisdom.

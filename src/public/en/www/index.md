@@ -1,5 +1,5 @@
 ---
-title: Gemmms
+title: Home
 toc: false
 suggestions: false
 eleventyExcludeFromCollections:
@@ -8,7 +8,7 @@ eleventyExcludeFromCollections:
 
 Welcome to Gemmms! Explore and discover content that speaks to you. Dive in, explore, and find what resonates. Enjoy your stay!
 
-## Gems
+## Directory
 {%- assign suggestions = collections.gems | alphabetic -%}
 {% for page in suggestions %}
   * [{{ page.data.title }}]({{ page | toUrl }})
