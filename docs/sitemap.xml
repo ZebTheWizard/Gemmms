@@ -13,12 +13,6 @@
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-		<loc>https://www.gemmms.com/en/gems/citrine</loc>
-		<lastmod>2024-09-09</lastmod>
-		<priority>0.9</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
 		<loc>https://www.gemmms.com/en/gems/emerald</loc>
 		<lastmod>2024-09-09</lastmod>
 		<priority>0.9</priority>
@@ -73,13 +67,19 @@
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-		<loc>https://www.gemmms.com/en/gems/aquamarine</loc>
-		<lastmod>2024-09-09</lastmod>
+		<loc>https://www.gemmms.com/en/gems/amethyst</loc>
+		<lastmod>2024-09-10</lastmod>
 		<priority>0.9</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-		<loc>https://www.gemmms.com/en/gems/amethyst</loc>
+		<loc>https://www.gemmms.com/en/gems/aquamarine</loc>
+		<lastmod>2024-09-10</lastmod>
+		<priority>0.9</priority>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://www.gemmms.com/en/gems/citrine</loc>
 		<lastmod>2024-09-10</lastmod>
 		<priority>0.9</priority>
 		<changefreq>daily</changefreq>
