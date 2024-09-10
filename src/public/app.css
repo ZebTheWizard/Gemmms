@@ -418,6 +418,10 @@
         list-style: disc;
         margin-left: 10px;
     }
+
+    ol {
+        list-style: auto;
+    }
 }
 
 .header-anchor {

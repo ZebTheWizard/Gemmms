@@ -4,20 +4,30 @@ const markdownit = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const tocPlugin = require("eleventy-plugin-toc");
 const { shuffle } = require("lodash");
+const footnotes = require("./src/plugins/footnotes");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setLibrary(
-    "md",
-    markdownit({ html: true, breaks: false, linkify: true }).use(anchor, {
+  // const footnotes = new Function("return " + footnotesPlugin.toString())();
+
+  // console.log(
+  //   footnotes().toString(),
+  //   "====================",
+  //   footnotesPlugin.toString(),
+  // );
+
+  const md = markdownit({ html: true, breaks: false, linkify: true })
+    .use(anchor, {
       permalink: anchor.permalink.linkInsideHeader({
         space: false,
         symbol: `
-            <span aria-hidden="true">#</span>
-          `,
+          <span aria-hidden="true">#</span>
+        `,
         placement: "before",
       }),
-    }),
-  );
+    })
+    .use(footnotes);
+
+  eleventyConfig.setLibrary("md", md);
   eleventyConfig.addPlugin(tocPlugin, {
     tags: ["h2", "h3", "h4"],
     wrapperClass: "toc no-print",
