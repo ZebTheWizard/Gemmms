@@ -1,6 +1,7 @@
 ---
 title: Citrine
 seo_title: "Citrine: The Stone of Abundance and Joy"
+meta_description: "Learn about Citrine's healing powers, chakra connections, astrological links, and tips for cleansing and care of this stone of abundance and joy."
 fill: "#e5e5e5"
 pronunciation: /ˈsɪtriːn/
 signs: ["Aries", "Gemini", "Leo", "Libra"]

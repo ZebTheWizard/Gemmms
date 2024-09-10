@@ -1,5 +1,6 @@
 ---
 title: Amethyst
+meta_description: "Explore the history, healing benefits, uses, and care of Amethyst crystals. Learn how to incorporate this powerful stone into your daily life."
 fill: "#e5e5e5"
 pronunciation: /ˈaməˌθist/
 pronunciation_audio: am-uh-thist

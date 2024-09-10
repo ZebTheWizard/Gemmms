@@ -1,6 +1,7 @@
 ---
 title: Moonstone
 seo_title: "Moonstone: The Stone of Inner Clarity and Emotional Balance"
+meta_description: "Discover Moonstone's healing properties, spiritual benefits, astrological connections, and how to care for this intuitive stone through proper cleansing and storage."
 fill: "#e5e5e5"
 pronunciation: /ˈmo͞onˌstōn/
 signs: ["Cancer", "Libra", "Scorpio"]
