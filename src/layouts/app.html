@@ -47,8 +47,8 @@ background: bg-indigo-300
         {% if canonical %}
         <link rel="canonical" href="{{canonical}}" />
         {% endif %} {% if meta_description %}
-        <meta name="description" href="{{meta_description}}" />
-        <meta name="og:description" href="{{meta_description}}" />
+        <meta name="description" content="{{meta_description}}" />
+        <meta name="og:description" content="{{meta_description}}" />
         {% endif %}
     </head>
     <!-- Google tag (gtag.js) -->
