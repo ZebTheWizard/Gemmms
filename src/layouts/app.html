@@ -92,9 +92,11 @@ background: bg-indigo-300
 
                 {{back[1]}}
             </a>
-            {% endif %}
-            <h1 class="title">{{ seo_title ?? title }}</h1>
-            {% if toc %} {{ content | toc }}
+            {% endif %} {% if seo_title %}
+            <h1 class="title">{{ seo_title }}</h1>
+            {% else %}
+            <h1 class="title">{{ title }}</h1>
+            {% endif %} {% if toc %} {{ content | toc }}
             <hr />
             {% endif %}
             <article class="space-y-6">{{ content }}</article>
