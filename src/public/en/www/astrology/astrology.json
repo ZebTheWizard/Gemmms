@@ -1,0 +1,10 @@
+{
+  "tags": ["astrology"],
+  "layout": "astrology.md",
+  "priority": 0.9,
+  "date": "Last Modified",
+  "isGem": false,
+  "isAstrology": true,
+  "hasFootnotes": true,
+  "meta_description": "Explore astral energies and what it means to be you. What does it mean to be Pisces, Saggitarious, or Leo?"
+}

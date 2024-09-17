@@ -14,3 +14,9 @@ Welcome to Gemmms! Explore and discover content that speaks to you. Dive in, exp
 {% for page in suggestions %}
   * [{{ page.data.title }}]({{ page | toUrl }})
 {%- endfor %}
+
+## Astrology
+{%- assign suggestions = collections.astrology | alphabetic -%}
+{% for page in suggestions %}
+  * [{{ page.data.title }}]({{ page | toUrl }})
+{%- endfor %}
