@@ -7,7 +7,7 @@ DEBUG=Eleventy*
 rm -rf $OUTPUT_DIR
 bun x tailwindcss --input ./src/public/app.css --output ./docs/app.min.css --minify
 
-for filename in src/public/img/illustrations/*.webp; do
+for filename in src/public/img/illustrations/*.{webp,jpg}; do
     cache="$(echo ${filename%.*} | sed 's|src/public|.cache|g')"
     docs="$(echo ${filename%.*} | sed 's|src/public|docs|g')"
     if [ ! -d "$cache" ]; then
