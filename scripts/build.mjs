@@ -560,14 +560,7 @@ write("/404.html", layout({ title: "Page Not Found", description: "The page you 
 fs.writeFileSync(path.join(DIST, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap.map((u) => `<url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority.toFixed(1)}</priority></url>`).join("\n")}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, "robots.txt"), `User-agent: *\nAllow: /\nDisallow: /search/\n\nSitemap: ${SITE}/sitemap.xml\n`);
 if (config.adsenseClient) fs.writeFileSync(path.join(DIST, "ads.txt"), `google.com, ${config.adsenseClient.replace(/^ca-/, "")}, DIRECT, f08c47fec0942fa0\n`);
-const redirects = [
-  "/en / 301", "/en/ / 301", "/index.html / 301",
-  "/en/gems/:slug /crystals/:slug/ 301", "/en/gems /crystals/ 301",
-  "/en/astrology/:sign /zodiac/:sign/ 301", "/en/astrology /zodiac/ 301",
-  "/en/* / 301",
-  "/gems/:slug /crystals/:slug/ 301",
-];
-fs.writeFileSync(path.join(DIST, "_redirects"), redirects.join("\n") + "\n");
+// Legacy /en/... redirects are handled in src/worker.js.
 fs.writeFileSync(path.join(DIST, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n\n/img/*\n  Cache-Control: public, max-age=2592000\n\n/css/*\n  Cache-Control: public, max-age=31536000, immutable\n`);
 
 console.log(`Built ${sitemap.length} indexable pages, ${crystals.length} crystals (${crystals.filter(hasImg).length} with photos), ${guides.length} guides -> dist/`);
