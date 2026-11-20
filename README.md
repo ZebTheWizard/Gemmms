@@ -18,7 +18,7 @@ The site is plain static HTML made by a small Node script, with no framework or 
 | `scripts/build.mjs` | Generates `dist/` |
 | `scripts/fetch-images.mjs` | Downloads freely licensed photos from Wikimedia Commons and converts them to WebP |
 | `src/worker.js` | Redirects `gemmms.com` to `www.gemmms.com`, then serves `dist/` |
-| `site.config.json` | Site URL, Google Analytics ID, AdSense client ID |
+| `site.config.json` | Site URL, Google Tag Manager container ID, AdSense client ID |
 
 ## Commands
 
