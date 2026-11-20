@@ -128,6 +128,7 @@ ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robo
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/css/site.css?v=${BUILD_ID}">
+<script src="/js/search.js?v=${BUILD_ID}" defer></script>
 ${head}${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n")}
 ${ga}${ads}
 </head>
