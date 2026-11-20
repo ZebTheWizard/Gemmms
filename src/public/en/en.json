@@ -1,8 +1,0 @@
-{
-  "tags": ["post", "en"],
-  "locale": "en",
-  "layout": "app.html",
-  "suggest": true,
-  "suggestions": true,
-  "toc": true
-}

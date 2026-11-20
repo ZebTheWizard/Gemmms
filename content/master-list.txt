@@ -1,0 +1,384 @@
+clear-quartz|Clear Quartz
+amethyst|Amethyst
+citrine|Citrine
+rose-quartz|Rose Quartz
+smoky-quartz|Smoky Quartz
+rutilated-quartz|Rutilated Quartz
+tourmalinated-quartz|Tourmalinated Quartz
+ametrine|Ametrine
+prasiolite|Prasiolite (Green Amethyst)
+blue-quartz|Blue Quartz
+strawberry-quartz|Strawberry Quartz
+lemon-quartz|Lemon Quartz
+tangerine-quartz|Tangerine Quartz
+spirit-quartz|Spirit Quartz
+phantom-quartz|Phantom Quartz
+lithium-quartz|Lithium Quartz
+herkimer-diamond|Herkimer Diamond
+elestial-quartz|Elestial Quartz
+lemurian-quartz|Lemurian Seed Quartz
+angel-aura-quartz|Angel Aura Quartz
+aqua-aura-quartz|Aqua Aura Quartz
+snow-quartz|Snow Quartz
+tibetan-quartz|Tibetan Quartz
+chlorite-quartz|Chlorite Quartz
+hematoid-quartz|Hematoid Quartz
+morion|Morion Quartz
+nirvana-quartz|Nirvana Quartz
+faden-quartz|Faden Quartz
+chevron-amethyst|Chevron Amethyst
+super-seven|Super Seven
+auralite-23|Auralite 23
+chalcedony|Chalcedony
+blue-chalcedony|Blue Chalcedony
+carnelian|Carnelian
+onyx|Onyx
+sardonyx|Sardonyx
+chrysoprase|Chrysoprase
+bloodstone|Bloodstone
+agate|Agate
+blue-lace-agate|Blue Lace Agate
+moss-agate|Moss Agate
+fire-agate|Fire Agate
+crazy-lace-agate|Crazy Lace Agate
+tree-agate|Tree Agate
+botswana-agate|Botswana Agate
+dendritic-agate|Dendritic Agate
+jasper|Jasper
+red-jasper|Red Jasper
+yellow-jasper|Yellow Jasper
+picture-jasper|Picture Jasper
+dalmatian-jasper|Dalmatian Jasper
+leopardskin-jasper|Leopardskin Jasper
+ocean-jasper|Ocean Jasper
+mookaite|Mookaite
+kambaba-jasper|Kambaba Jasper
+bumblebee-jasper|Bumblebee Jasper
+poppy-jasper|Poppy Jasper
+polychrome-jasper|Polychrome Jasper
+picasso-jasper|Picasso Jasper
+rainforest-jasper|Rainforest Jasper (Rhyolite)
+unakite|Unakite
+petrified-wood|Petrified Wood
+tigers-eye|Tiger's Eye
+red-tigers-eye|Red Tiger's Eye
+hawks-eye|Hawk's Eye
+tiger-iron|Tiger Iron
+pietersite|Pietersite
+green-aventurine|Green Aventurine
+blue-aventurine|Blue Aventurine
+flint|Flint
+moonstone|Moonstone
+rainbow-moonstone|Rainbow Moonstone
+peach-moonstone|Peach Moonstone
+black-moonstone|Black Moonstone
+sunstone|Sunstone
+labradorite|Labradorite
+spectrolite|Spectrolite
+amazonite|Amazonite
+orthoclase|Orthoclase
+andesine|Andesine
+larvikite|Larvikite
+emerald|Emerald
+aquamarine|Aquamarine
+morganite|Morganite
+heliodor|Heliodor
+goshenite|Goshenite
+red-beryl|Red Beryl
+beryl|Beryl
+ruby|Ruby
+sapphire|Sapphire
+yellow-sapphire|Yellow Sapphire
+pink-sapphire|Pink Sapphire
+padparadscha-sapphire|Padparadscha Sapphire
+ruby-in-zoisite|Ruby in Zoisite (Anyolite)
+ruby-in-fuchsite|Ruby in Fuchsite
+ruby-in-kyanite|Ruby in Kyanite
+garnet|Garnet
+almandine|Almandine Garnet
+pyrope|Pyrope Garnet
+spessartine|Spessartine Garnet
+grossular|Grossular Garnet
+tsavorite|Tsavorite
+hessonite|Hessonite
+demantoid|Demantoid Garnet
+andradite|Andradite Garnet
+rhodolite|Rhodolite Garnet
+uvarovite|Uvarovite Garnet
+tourmaline|Tourmaline
+black-tourmaline|Black Tourmaline
+pink-tourmaline|Pink Tourmaline
+green-tourmaline|Green Tourmaline
+watermelon-tourmaline|Watermelon Tourmaline
+blue-tourmaline|Blue Tourmaline (Indicolite)
+rubellite|Rubellite
+paraiba-tourmaline|Paraiba Tourmaline
+dravite|Dravite
+topaz|Topaz
+blue-topaz|Blue Topaz
+imperial-topaz|Imperial Topaz
+jade|Jade
+jadeite|Jadeite
+nephrite|Nephrite
+opal|Opal
+fire-opal|Fire Opal
+ethiopian-opal|Ethiopian Opal
+boulder-opal|Boulder Opal
+pink-opal|Pink Opal
+blue-opal|Blue Opal (Andean Opal)
+black-opal|Black Opal
+diamond|Diamond
+zircon|Zircon
+tanzanite|Tanzanite
+zoisite|Zoisite
+thulite|Thulite
+peridot|Peridot
+spinel|Spinel
+chrysoberyl|Chrysoberyl
+alexandrite|Alexandrite
+iolite|Iolite
+kunzite|Kunzite
+hiddenite|Hiddenite
+spodumene|Spodumene
+kyanite|Kyanite
+black-kyanite|Black Kyanite
+andalusite|Andalusite
+chiastolite|Chiastolite
+staurolite|Staurolite
+sphene|Sphene (Titanite)
+benitoite|Benitoite
+taaffeite|Taaffeite
+painite|Painite
+grandidierite|Grandidierite
+turquoise|Turquoise
+lapis-lazuli|Lapis Lazuli
+sodalite|Sodalite
+azurite|Azurite
+malachite|Malachite
+azurmalachite|Azurite-Malachite
+chrysocolla|Chrysocolla
+larimar|Larimar
+shattuckite|Shattuckite
+ajoite|Ajoite
+dioptase|Dioptase
+hemimorphite|Hemimorphite
+smithsonite|Smithsonite
+aragonite|Aragonite
+calcite|Calcite
+orange-calcite|Orange Calcite
+blue-calcite|Blue Calcite
+green-calcite|Green Calcite
+honey-calcite|Honey Calcite
+optical-calcite|Optical Calcite (Iceland Spar)
+mangano-calcite|Mangano Calcite
+cobaltoan-calcite|Cobaltoan Calcite
+stichtite|Stichtite
+atlantisite|Atlantisite
+sugilite|Sugilite
+charoite|Charoite
+lepidolite|Lepidolite
+fuchsite|Fuchsite
+muscovite|Muscovite
+seraphinite|Seraphinite
+serpentine|Serpentine
+infinite-stone|Infinite Stone
+prehnite|Prehnite
+epidote|Epidote
+vesuvianite|Vesuvianite (Idocrase)
+apophyllite|Apophyllite
+stilbite|Stilbite
+heulandite|Heulandite
+natrolite|Natrolite
+scolecite|Scolecite
+okenite|Okenite
+cavansite|Cavansite
+datolite|Datolite
+danburite|Danburite
+petalite|Petalite
+phenakite|Phenakite
+herderite|Herderite
+brazilianite|Brazilianite
+apatite|Apatite
+fluorite|Fluorite
+rainbow-fluorite|Rainbow Fluorite
+celestite|Celestite
+barite|Barite
+desert-rose|Desert Rose
+selenite|Selenite
+anhydrite|Anhydrite
+angelite|Angelite
+howlite|Howlite
+magnesite|Magnesite
+dolomite|Dolomite
+rhodochrosite|Rhodochrosite
+rhodonite|Rhodonite
+tugtupite|Tugtupite
+eudialyte|Eudialyte
+hackmanite|Hackmanite
+lazulite|Lazulite
+dumortierite|Dumortierite
+scapolite|Scapolite
+variscite|Variscite
+wavellite|Wavellite
+amblygonite|Amblygonite
+gaspeite|Gaspeite
+sphalerite|Sphalerite
+cinnabar|Cinnabar
+hematite|Hematite
+magnetite|Magnetite
+lodestone|Lodestone
+pyrite|Pyrite
+marcasite|Marcasite
+chalcopyrite|Chalcopyrite
+bornite|Bornite (Peacock Ore)
+galena|Galena
+stibnite|Stibnite
+bismuth|Bismuth
+copper|Copper
+gold|Gold
+silver|Silver
+cuprite|Cuprite
+rutile|Rutile
+cassiterite|Cassiterite
+goethite|Goethite
+shungite|Shungite
+nuummite|Nuummite
+astrophyllite|Astrophyllite
+arfvedsonite|Arfvedsonite
+covellite|Covellite
+molybdenite|Molybdenite
+tektite|Tektite
+moldavite|Moldavite
+libyan-desert-glass|Libyan Desert Glass
+meteorite|Meteorite
+obsidian|Obsidian
+black-obsidian|Black Obsidian
+snowflake-obsidian|Snowflake Obsidian
+mahogany-obsidian|Mahogany Obsidian
+rainbow-obsidian|Rainbow Obsidian
+golden-sheen-obsidian|Golden Sheen Obsidian
+apache-tears|Apache Tears
+lava-stone|Lava Stone
+amber|Amber
+copal|Copal
+jet|Jet
+pearl|Pearl
+red-coral|Red Coral
+mother-of-pearl|Mother of Pearl
+abalone-shell|Abalone Shell
+ammonite|Ammonite
+ammolite|Ammolite
+shiva-lingam|Shiva Lingam
+boji-stones|Boji Stones
+moqui-marbles|Moqui Marbles
+merlinite|Merlinite
+preseli-bluestone|Preseli Bluestone
+stromatolite|Stromatolite
+septarian|Septarian
+aegirine|Aegirine
+tiffany-stone|Tiffany Stone
+k2-stone|K2 Stone
+vanadinite|Vanadinite
+wulfenite|Wulfenite
+crocoite|Crocoite
+hauyne|Hauyne
+purpurite|Purpurite
+chrysanthemum-stone|Chrysanthemum Stone
+halite|Halite
+sulfur|Sulfur
+chrome-diopside|Chrome Diopside
+diopside|Diopside
+hypersthene|Hypersthene
+bronzite|Bronzite
+thunder-egg|Thunder Egg
+rhyolite|Rhyolite
+opalite|Opalite
+goldstone|Goldstone
+ulexite|Ulexite
+zincite|Zincite
+vivianite|Vivianite
+indigo-gabbro|Indigo Gabbro
+blue-kyanite|Blue Kyanite
+mica|Mica
+lazurite|Lazurite
+pyrite-sun|Pyrite Sun
+pink-amethyst|Pink Amethyst
+lavender-jade|Lavender Jade
+black-onyx|Black Onyx
+blue-apatite|Blue Apatite
+yellow-apatite|Yellow Apatite
+blue-john|Blue John
+green-fluorite|Green Fluorite
+purple-fluorite|Purple Fluorite
+yttrium-fluorite|Yttrium Fluorite
+chalcanthite|Chalcanthite
+pink-calcite|Pink Calcite
+red-calcite|Red Calcite
+yellow-calcite|Yellow Calcite
+black-calcite|Black Calcite
+caribbean-calcite|Caribbean Calcite
+lemurian-jade|Lemurian Jade
+african-jade|African Jade (Buddstone)
+new-jade|New Jade (Bowenite)
+green-opal|Green Opal
+dendritic-opal|Dendritic Opal
+honey-opal|Honey Opal
+white-opal|White Opal
+mexican-lace-agate|Mexican Lace Agate
+holly-blue-agate|Holly Blue Agate
+plume-agate|Plume Agate
+enhydro-agate|Enhydro Agate
+banded-agate|Banded Agate
+black-agate|Black Agate
+pink-agate|Pink Agate
+blue-agate|Blue Agate
+fancy-jasper|Fancy Jasper
+zebra-jasper|Zebra Jasper
+imperial-jasper|Imperial Jasper
+brecciated-jasper|Brecciated Jasper
+silver-leaf-jasper|Silver Leaf Jasper
+mahogany-jasper|Mahogany Jasper
+green-jasper|Green Jasper
+royal-plume-jasper|Royal Plume Jasper
+peach-aventurine|Peach Aventurine
+red-aventurine|Red Aventurine
+star-sapphire|Star Sapphire
+star-ruby|Star Ruby
+black-spinel|Black Spinel
+red-spinel|Red Spinel
+cats-eye|Cat's Eye Chrysoberyl
+blue-sapphire|Blue Sapphire
+white-sapphire|White Sapphire
+green-sapphire|Green Sapphire
+black-sapphire|Black Sapphire
+yellow-topaz|Yellow Topaz
+white-topaz|White Topaz
+mystic-topaz|Mystic Topaz
+rainbow-garnet|Rainbow Garnet
+star-garnet|Star Garnet
+mali-garnet|Mali Garnet
+yellow-tourmaline|Yellow Tourmaline
+brown-tourmaline|Brown Tourmaline
+purple-tourmaline|Purple Tourmaline (Siberite)
+pink-lemurian|Pink Lemurian Quartz
+golden-healer-quartz|Golden Healer Quartz
+fire-quartz|Fire Quartz
+candle-quartz|Candle Quartz
+cathedral-quartz|Cathedral Quartz
+skeletal-quartz|Skeletal Quartz
+window-quartz|Window Quartz
+record-keeper-quartz|Record Keeper Quartz
+amphibole-quartz|Amphibole Quartz (Angel Quartz)
+dumortierite-quartz|Dumortierite Quartz
+blue-rutile-quartz|Blue Rutile Quartz
+garden-quartz|Garden Quartz (Lodolite)
+smoky-citrine|Smoky Citrine
+madeira-citrine|Madeira Citrine
+vera-cruz-amethyst|Vera Cruz Amethyst
+brandberg-amethyst|Brandberg Amethyst
+cacoxenite|Cacoxenite
+polylithionite|Polylithionite
+rose-aura-quartz|Rose Aura Quartz
+rainbow-aura-quartz|Rainbow Aura Quartz
+tanzine-aura-quartz|Tanzine Aura Quartz
+titanium-quartz|Titanium Quartz

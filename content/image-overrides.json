@@ -1,0 +1,82 @@
+{
+  "auralite-23": {
+    "query": "Thunder Bay amethyst",
+    "keyword": "amethyst"
+  },
+  "lemurian-jade": {
+    "query": "black jade pyrite",
+    "keyword": "jade"
+  },
+  "lemurian-quartz": {
+    "query": "Lemurian quartz crystal",
+    "keyword": "quartz"
+  },
+  "leopardskin-jasper": {
+    "query": "leopard skin jasper",
+    "keyword": "leopard"
+  },
+  "nirvana-quartz": {
+    "query": "ice quartz Himalaya",
+    "keyword": "quartz"
+  },
+  "polychrome-jasper": {
+    "query": "polychrome jasper",
+    "keyword": "jasper"
+  },
+  "rainbow-aura-quartz": {
+    "query": "aura quartz",
+    "keyword": "aura"
+  },
+  "rose-aura-quartz": {
+    "query": "aura quartz pink",
+    "keyword": "aura"
+  },
+  "tanzine-aura-quartz": {
+    "query": "titanium aura quartz",
+    "keyword": "quartz"
+  },
+  "tibetan-quartz": {
+    "query": "quartz Tibet",
+    "keyword": "quartz"
+  },
+  "mookaite": {
+    "query": "mookaite jasper",
+    "keyword": "mook"
+  },
+  "moqui-marbles": {
+    "query": "Navajo sandstone iron concretions",
+    "keyword": "concretion"
+  },
+  "red-calcite": {
+    "query": "red calcite",
+    "keyword": "calcite"
+  },
+  "golden-healer-quartz": {
+    "query": "limonite quartz",
+    "keyword": "quartz"
+  },
+  "lemon-quartz": {
+    "query": "yellow quartz citrine",
+    "keyword": "citrine"
+  },
+  "pink-lemurian": {
+    "query": "pink quartz crystal",
+    "keyword": "quartz"
+  },
+  "record-keeper-quartz": {
+    "query": "quartz crystal terminated",
+    "keyword": "quartz"
+  },
+  "peach-moonstone": {
+    "query": "moonstone orthoclase",
+    "keyword": "moonstone"
+  },
+  "chevron-amethyst": {
+    "query": "amethyst banded",
+    "keyword": "amethyst"
+  },
+  "african-jade": {
+    "query": "verdite",
+    "keyword": "verdite"
+  }
+}

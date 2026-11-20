@@ -1,0 +1,34 @@
+dendritic-opal|Dendritic Opal
+honey-opal|Honey Opal
+white-opal|White Opal
+mexican-lace-agate|Mexican Lace Agate
+holly-blue-agate|Holly Blue Agate
+plume-agate|Plume Agate
+enhydro-agate|Enhydro Agate
+banded-agate|Banded Agate
+black-agate|Black Agate
+pink-agate|Pink Agate
+blue-agate|Blue Agate
+fancy-jasper|Fancy Jasper
+zebra-jasper|Zebra Jasper
+imperial-jasper|Imperial Jasper
+brecciated-jasper|Brecciated Jasper
+silver-leaf-jasper|Silver Leaf Jasper
+mahogany-jasper|Mahogany Jasper
+green-jasper|Green Jasper
+royal-plume-jasper|Royal Plume Jasper
+peach-aventurine|Peach Aventurine
+red-aventurine|Red Aventurine
+star-sapphire|Star Sapphire
+star-ruby|Star Ruby
+black-spinel|Black Spinel
+red-spinel|Red Spinel
+cats-eye|Cat's Eye Chrysoberyl
+blue-sapphire|Blue Sapphire
+white-sapphire|White Sapphire
+green-sapphire|Green Sapphire
+black-sapphire|Black Sapphire
+yellow-topaz|Yellow Topaz
+white-topaz|White Topaz
+mystic-topaz|Mystic Topaz
+rainbow-garnet|Rainbow Garnet

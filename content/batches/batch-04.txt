@@ -1,0 +1,42 @@
+turquoise|Turquoise
+lapis-lazuli|Lapis Lazuli
+sodalite|Sodalite
+azurite|Azurite
+malachite|Malachite
+azurmalachite|Azurite-Malachite
+chrysocolla|Chrysocolla
+larimar|Larimar
+shattuckite|Shattuckite
+ajoite|Ajoite
+dioptase|Dioptase
+hemimorphite|Hemimorphite
+smithsonite|Smithsonite
+aragonite|Aragonite
+calcite|Calcite
+orange-calcite|Orange Calcite
+blue-calcite|Blue Calcite
+green-calcite|Green Calcite
+honey-calcite|Honey Calcite
+optical-calcite|Optical Calcite (Iceland Spar)
+mangano-calcite|Mangano Calcite
+cobaltoan-calcite|Cobaltoan Calcite
+stichtite|Stichtite
+atlantisite|Atlantisite
+sugilite|Sugilite
+charoite|Charoite
+lepidolite|Lepidolite
+fuchsite|Fuchsite
+muscovite|Muscovite
+seraphinite|Seraphinite
+serpentine|Serpentine
+infinite-stone|Infinite Stone
+prehnite|Prehnite
+epidote|Epidote
+vesuvianite|Vesuvianite (Idocrase)
+apophyllite|Apophyllite
+stilbite|Stilbite
+heulandite|Heulandite
+natrolite|Natrolite
+scolecite|Scolecite
+okenite|Okenite
+cavansite|Cavansite

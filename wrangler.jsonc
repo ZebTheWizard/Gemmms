@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gemmms",
+  "account_id": "c294bf702f59376ebe37bf520e9432b5",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "www.gemmms.com/*", "zone_name": "gemmms.com" },
+    { "pattern": "gemmms.com/*", "zone_name": "gemmms.com" }
+  ],
+  "observability": { "enabled": true }
+}

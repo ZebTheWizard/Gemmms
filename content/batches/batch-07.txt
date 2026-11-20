@@ -1,0 +1,40 @@
+hauyne|Hauyne
+purpurite|Purpurite
+chrysanthemum-stone|Chrysanthemum Stone
+halite|Halite
+sulfur|Sulfur
+chrome-diopside|Chrome Diopside
+diopside|Diopside
+hypersthene|Hypersthene
+bronzite|Bronzite
+thunder-egg|Thunder Egg
+rhyolite|Rhyolite
+opalite|Opalite
+goldstone|Goldstone
+ulexite|Ulexite
+zincite|Zincite
+vivianite|Vivianite
+indigo-gabbro|Indigo Gabbro
+blue-kyanite|Blue Kyanite
+mica|Mica
+lazurite|Lazurite
+pyrite-sun|Pyrite Sun
+pink-amethyst|Pink Amethyst
+lavender-jade|Lavender Jade
+black-onyx|Black Onyx
+blue-apatite|Blue Apatite
+yellow-apatite|Yellow Apatite
+blue-john|Blue John
+green-fluorite|Green Fluorite
+purple-fluorite|Purple Fluorite
+yttrium-fluorite|Yttrium Fluorite
+chalcanthite|Chalcanthite
+pink-calcite|Pink Calcite
+red-calcite|Red Calcite
+yellow-calcite|Yellow Calcite
+black-calcite|Black Calcite
+caribbean-calcite|Caribbean Calcite
+lemurian-jade|Lemurian Jade
+african-jade|African Jade (Buddstone)
+new-jade|New Jade (Bowenite)
+green-opal|Green Opal

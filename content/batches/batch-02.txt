@@ -1,0 +1,39 @@
+moonstone|Moonstone
+rainbow-moonstone|Rainbow Moonstone
+peach-moonstone|Peach Moonstone
+black-moonstone|Black Moonstone
+sunstone|Sunstone
+labradorite|Labradorite
+spectrolite|Spectrolite
+amazonite|Amazonite
+orthoclase|Orthoclase
+andesine|Andesine
+larvikite|Larvikite
+emerald|Emerald
+aquamarine|Aquamarine
+morganite|Morganite
+heliodor|Heliodor
+goshenite|Goshenite
+red-beryl|Red Beryl
+beryl|Beryl
+ruby|Ruby
+sapphire|Sapphire
+yellow-sapphire|Yellow Sapphire
+pink-sapphire|Pink Sapphire
+padparadscha-sapphire|Padparadscha Sapphire
+ruby-in-zoisite|Ruby in Zoisite (Anyolite)
+ruby-in-fuchsite|Ruby in Fuchsite
+ruby-in-kyanite|Ruby in Kyanite
+garnet|Garnet
+almandine|Almandine Garnet
+pyrope|Pyrope Garnet
+spessartine|Spessartine Garnet
+grossular|Grossular Garnet
+tsavorite|Tsavorite
+hessonite|Hessonite
+demantoid|Demantoid Garnet
+andradite|Andradite Garnet
+rhodolite|Rhodolite Garnet
+uvarovite|Uvarovite Garnet
+tourmaline|Tourmaline
+black-tourmaline|Black Tourmaline

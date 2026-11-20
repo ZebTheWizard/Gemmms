@@ -1,85 +1,44 @@
-![img](src/public/img/Chione-2.png)
+# Gemmms
 
-# Chione - Snow Builds Kickstart
+Source for [www.gemmms.com](https://www.gemmms.com), a crystal and gemstone encyclopedia covering crystal meanings, traditional healing properties, chakras, zodiac signs and birthstones.
 
-In memory are those who struggle to share. This repo is dedicated to them. You've got this!
+The site is plain static HTML made by a small Node script, with no framework or runtime dependencies. It is served by a Cloudflare Worker with static assets.
 
-## Origin
+## Layout
 
-> In Greek mythology, Chione or Khionê (Ancient Greek: Χιονη from χιών – chiōn, "snow") was the daughter of the Oceanid Callirrhoe and Nilus. She was raped by a local peasant and transformed into a snow cloud by Hermes at the order of Zeus. From the clouds she cast snow (khiôn) upon the desert. The Greek word for snow (χιών chiōn) was thought to have come from her name.
->
-> _[The Wikipedia Article](https://en.wikipedia.org/wiki/Chione_(daughter_of_Callirrhoe))_
+| Path | What |
+| --- | --- |
+| `content/crystals/*.json` | One file per crystal. `content/AGENT_BRIEF.md` documents the schema and writing rules |
+| `content/master-list.txt` | Every crystal slug and name |
+| `content/guides/*.json` | Long-form guide articles (HTML body) |
+| `content/taxonomy.json` | Intro text for chakra, zodiac, color, intention, family and element hub pages |
+| `content/images.json` | Photo attribution (author, license, source) for every crystal image |
+| `public/` | Static files copied as-is (CSS, icons, crystal photos in `public/img/crystals/`) |
+| `scripts/build.mjs` | Generates `dist/` |
+| `scripts/fetch-images.mjs` | Downloads freely licensed photos from Wikimedia Commons and converts them to WebP |
+| `src/worker.js` | Redirects `gemmms.com` to `www.gemmms.com`, then serves `dist/` |
+| `site.config.json` | Site URL, Google Analytics ID, AdSense client ID, contact email |
 
-## Introduction
-Chione provides several avenues for generating static content. Authors should start simple. From there, they may wish to continue or combine ideas into something greater.
+## Commands
 
-## Folder Structure
-The `src` folder houses your unpublished thoughts. The first level of folders specify the broadest scope. By default, "language" is assumed to be the broadest scope. Just fork the repository. From there, do what you want.
-
-## Getting Started
-1. Fork the repository
-2. Install dependencies [See bun installation](https://github.com/oven-sh/bun)
-3. Build static files `./build.sh`
-4. Share `docs` directory with world
-
-## Screenshots
-Only because if I were you, I'd want to see what I'm getting into. Food for thought.
-
-![img](src/public/img/screenshot-1.jpg)
-![img](src/public/img/screenshot-2.jpg)
-![img](src/public/img/screenshot-3.jpg)
-![img](src/public/img/screenshot-4.jpg)
-
-## Stack
-Oh yes how could this be forgotten. Chione is built on the following technologies:
-* Bun
-  * I18N routing
-  * Analytics
-* 11TY
-  * Static Site Generation
-  * Markdown
-  * Templating (Liquid, Nunjucks, EJS, etc.)
-* CSS
-  * PostCSS
-  * TailwindCSS
-
-## Advanced
-This step is optional and only necessary if you want to rewrite URLs. Doing so means your content depends on a server and will ultimately cost money to publish. Hosting static content for free is possible if you search around, yet "compute" is what you desire.
-
-1. Run `bun index.js`
-2. Modify server to fit your needs
-3. Publish
-
-## More Advanced
-Feel free to deploy using docker. There are many ways to do this. The project contains a simple `Dockerfile` and `docker-compose.yml` file. You may wish to modify these files to fit your needs.
-
-Since data management becomes more complex and expensive with Docker you may wish to backup your data inside a pre-commit hook:
-```bash
-#!/bin/bash
-export APP_DOMAIN="example.com"
-export APP_USERNAME="admin"
-export APP_PASSWORD="password"
-
-./build.sh
-
-mkdir -p stats
-curl -H "Authorization: Basic $(echo -n $APP_USERNAME:$APP_PASSWORD | base64)" https://$APP_DOMAIN/_views > "stats/$(date +'%Y%m%d%H%M%S').json"
-
-git add .
+```sh
+npm install
+npm run validate          # check every crystal JSON against the schema and health-claim rules
+npm run images            # fetch photos for crystals that don't have one yet
+npm run build             # write dist/
+npm run deploy            # build and deploy to Cloudflare
 ```
 
+## Adding a crystal
 
-## Purpose
-This project aims to provide ground for thoughts. Please be mindful.
+1. Add `slug|Name` to `content/master-list.txt`.
+2. Write `content/crystals/<slug>.json` following `content/AGENT_BRIEF.md`.
+3. Run `npm run validate`, then `npm run images -- <slug>`, then `npm run deploy`.
 
-## Intent
-Changes to this repository are not welcome at this time. Please fork and create your own apps.
+## AdSense
 
-## Disclaimers
-Security, accessibility, performance, etc. are deferred. Chione provides rudimentary I18N. Concerns will not be addressed at this time. Please make your own framework.
+Put your publisher ID (for example `ca-pub-1234567890123456`) in `site.config.json` under `adsenseClient`, then deploy. The build adds the Auto ads script to every page and writes `ads.txt`.
 
-## License
-MIT
+## Content rules
 
-## Credits
-Adobe, ChatGPT, Wikipedia, and subject matter are not my own. All rights reserved.
+Healing properties are written as tradition and belief, never as medical claims. Do not write that a stone cures or treats any disease. This keeps the site within AdSense's policy on unreliable health claims. `npm run validate` flags the most common problem words.

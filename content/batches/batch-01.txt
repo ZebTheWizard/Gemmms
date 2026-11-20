@@ -1,0 +1,37 @@
+carnelian|Carnelian
+onyx|Onyx
+sardonyx|Sardonyx
+chrysoprase|Chrysoprase
+bloodstone|Bloodstone
+agate|Agate
+blue-lace-agate|Blue Lace Agate
+moss-agate|Moss Agate
+fire-agate|Fire Agate
+crazy-lace-agate|Crazy Lace Agate
+tree-agate|Tree Agate
+botswana-agate|Botswana Agate
+dendritic-agate|Dendritic Agate
+jasper|Jasper
+red-jasper|Red Jasper
+yellow-jasper|Yellow Jasper
+picture-jasper|Picture Jasper
+dalmatian-jasper|Dalmatian Jasper
+leopardskin-jasper|Leopardskin Jasper
+ocean-jasper|Ocean Jasper
+mookaite|Mookaite
+kambaba-jasper|Kambaba Jasper
+bumblebee-jasper|Bumblebee Jasper
+poppy-jasper|Poppy Jasper
+polychrome-jasper|Polychrome Jasper
+picasso-jasper|Picasso Jasper
+rainforest-jasper|Rainforest Jasper (Rhyolite)
+unakite|Unakite
+petrified-wood|Petrified Wood
+tigers-eye|Tiger's Eye
+red-tigers-eye|Red Tiger's Eye
+hawks-eye|Hawk's Eye
+tiger-iron|Tiger Iron
+pietersite|Pietersite
+green-aventurine|Green Aventurine
+blue-aventurine|Blue Aventurine
+flint|Flint

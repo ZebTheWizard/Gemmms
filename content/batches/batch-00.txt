@@ -1,0 +1,33 @@
+clear-quartz|Clear Quartz
+amethyst|Amethyst
+citrine|Citrine
+rose-quartz|Rose Quartz
+smoky-quartz|Smoky Quartz
+rutilated-quartz|Rutilated Quartz
+tourmalinated-quartz|Tourmalinated Quartz
+ametrine|Ametrine
+prasiolite|Prasiolite (Green Amethyst)
+blue-quartz|Blue Quartz
+strawberry-quartz|Strawberry Quartz
+lemon-quartz|Lemon Quartz
+tangerine-quartz|Tangerine Quartz
+spirit-quartz|Spirit Quartz
+phantom-quartz|Phantom Quartz
+lithium-quartz|Lithium Quartz
+herkimer-diamond|Herkimer Diamond
+elestial-quartz|Elestial Quartz
+lemurian-quartz|Lemurian Seed Quartz
+angel-aura-quartz|Angel Aura Quartz
+aqua-aura-quartz|Aqua Aura Quartz
+snow-quartz|Snow Quartz
+tibetan-quartz|Tibetan Quartz
+chlorite-quartz|Chlorite Quartz
+hematoid-quartz|Hematoid Quartz
+morion|Morion Quartz
+nirvana-quartz|Nirvana Quartz
+faden-quartz|Faden Quartz
+chevron-amethyst|Chevron Amethyst
+super-seven|Super Seven
+auralite-23|Auralite 23
+chalcedony|Chalcedony
+blue-chalcedony|Blue Chalcedony

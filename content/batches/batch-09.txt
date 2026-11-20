@@ -1,0 +1,27 @@
+star-garnet|Star Garnet
+mali-garnet|Mali Garnet
+yellow-tourmaline|Yellow Tourmaline
+brown-tourmaline|Brown Tourmaline
+purple-tourmaline|Purple Tourmaline (Siberite)
+pink-lemurian|Pink Lemurian Quartz
+golden-healer-quartz|Golden Healer Quartz
+fire-quartz|Fire Quartz
+candle-quartz|Candle Quartz
+cathedral-quartz|Cathedral Quartz
+skeletal-quartz|Skeletal Quartz
+window-quartz|Window Quartz
+record-keeper-quartz|Record Keeper Quartz
+amphibole-quartz|Amphibole Quartz (Angel Quartz)
+dumortierite-quartz|Dumortierite Quartz
+blue-rutile-quartz|Blue Rutile Quartz
+garden-quartz|Garden Quartz (Lodolite)
+smoky-citrine|Smoky Citrine
+madeira-citrine|Madeira Citrine
+vera-cruz-amethyst|Vera Cruz Amethyst
+brandberg-amethyst|Brandberg Amethyst
+cacoxenite|Cacoxenite
+polylithionite|Polylithionite
+rose-aura-quartz|Rose Aura Quartz
+rainbow-aura-quartz|Rainbow Aura Quartz
+tanzine-aura-quartz|Tanzine Aura Quartz
+titanium-quartz|Titanium Quartz

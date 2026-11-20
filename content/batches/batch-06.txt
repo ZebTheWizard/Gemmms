@@ -1,0 +1,41 @@
+goethite|Goethite
+shungite|Shungite
+nuummite|Nuummite
+astrophyllite|Astrophyllite
+arfvedsonite|Arfvedsonite
+covellite|Covellite
+molybdenite|Molybdenite
+tektite|Tektite
+moldavite|Moldavite
+libyan-desert-glass|Libyan Desert Glass
+meteorite|Meteorite
+obsidian|Obsidian
+black-obsidian|Black Obsidian
+snowflake-obsidian|Snowflake Obsidian
+mahogany-obsidian|Mahogany Obsidian
+rainbow-obsidian|Rainbow Obsidian
+golden-sheen-obsidian|Golden Sheen Obsidian
+apache-tears|Apache Tears
+lava-stone|Lava Stone
+amber|Amber
+copal|Copal
+jet|Jet
+pearl|Pearl
+red-coral|Red Coral
+mother-of-pearl|Mother of Pearl
+abalone-shell|Abalone Shell
+ammonite|Ammonite
+ammolite|Ammolite
+shiva-lingam|Shiva Lingam
+boji-stones|Boji Stones
+moqui-marbles|Moqui Marbles
+merlinite|Merlinite
+preseli-bluestone|Preseli Bluestone
+stromatolite|Stromatolite
+septarian|Septarian
+aegirine|Aegirine
+tiffany-stone|Tiffany Stone
+k2-stone|K2 Stone
+vanadinite|Vanadinite
+wulfenite|Wulfenite
+crocoite|Crocoite

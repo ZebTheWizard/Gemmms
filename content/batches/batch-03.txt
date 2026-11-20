@@ -1,0 +1,43 @@
+pink-tourmaline|Pink Tourmaline
+green-tourmaline|Green Tourmaline
+watermelon-tourmaline|Watermelon Tourmaline
+blue-tourmaline|Blue Tourmaline (Indicolite)
+rubellite|Rubellite
+paraiba-tourmaline|Paraiba Tourmaline
+dravite|Dravite
+topaz|Topaz
+blue-topaz|Blue Topaz
+imperial-topaz|Imperial Topaz
+jade|Jade
+jadeite|Jadeite
+nephrite|Nephrite
+opal|Opal
+fire-opal|Fire Opal
+ethiopian-opal|Ethiopian Opal
+boulder-opal|Boulder Opal
+pink-opal|Pink Opal
+blue-opal|Blue Opal (Andean Opal)
+black-opal|Black Opal
+diamond|Diamond
+zircon|Zircon
+tanzanite|Tanzanite
+zoisite|Zoisite
+thulite|Thulite
+peridot|Peridot
+spinel|Spinel
+chrysoberyl|Chrysoberyl
+alexandrite|Alexandrite
+iolite|Iolite
+kunzite|Kunzite
+hiddenite|Hiddenite
+spodumene|Spodumene
+kyanite|Kyanite
+black-kyanite|Black Kyanite
+andalusite|Andalusite
+chiastolite|Chiastolite
+staurolite|Staurolite
+sphene|Sphene (Titanite)
+benitoite|Benitoite
+taaffeite|Taaffeite
+painite|Painite
+grandidierite|Grandidierite

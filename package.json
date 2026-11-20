@@ -1,30 +1,16 @@
 {
-  "name": "chione",
-  "module": "index.ts",
+  "name": "gemmms",
+  "private": true,
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.42",
-    "tailwindcss": "^3.4.10"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "scripts": {
-    "docs:dev": "./build.sh --watch",
-    "docs:build": "./build.sh",
-    "build:compile": "NODE_ENV=production bun build ./index.js --outfile server --compile"
+    "images": "node scripts/fetch-images.mjs",
+    "validate": "node content/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "npx wrangler dev",
+    "deploy": "node scripts/build.mjs && npx wrangler deploy"
   },
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "cookie": "^0.6.0",
-    "date-fns": "^3.6.0",
-    "eleventy-plugin-footnotes": "^0.11.0",
-    "eleventy-plugin-toc": "^1.1.5",
-    "lodash": "^4.17.21",
-    "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^9.1.0",
-    "markdown-it-footnote": "^4.0.0"
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "wrangler": "^4.0.0"
   }
 }
