@@ -82,7 +82,8 @@ const NAV = [
 const POPULAR = ["amethyst", "rose-quartz", "clear-quartz", "citrine", "black-tourmaline", "labradorite", "moonstone", "tigers-eye", "selenite", "lapis-lazuli", "carnelian", "malachite", "green-aventurine", "obsidian", "fluorite", "turquoise"].filter((s) => bySlug[s]);
 
 function sidebar() {
-  const pick = crystals.length ? crystals[hash(TODAY) % crystals.length] : null;
+  const withImg = crystals.filter(hasImg);
+  const pick = withImg.length ? withImg[hash(TODAY) % withImg.length] : null;
   const intentions = Object.keys(tax.intentions || {}).slice(0, 14);
   return `<aside>
 <div class="box"><h3>Featured Crystal</h3>${pick ? `<a class="feature" href="${crystalUrl(pick)}" style="display:block"><img src="${thumb(pick)}" alt="${esc(plainName(pick))}" width="240" height="240" loading="lazy"><b>${esc(pick.name)}</b><span>${esc((pick.keywords || []).slice(0, 3).join(" · "))}</span></a>` : ""}</div>
@@ -150,7 +151,7 @@ ${full ? "" : sidebar()}
 <div><h4>Encyclopedia</h4><ul><li><a href="/crystals/">Crystals A-Z</a></li><li><a href="/families/">Mineral Families</a></li><li><a href="/colors/">Crystals by Color</a></li><li><a href="/elements/">Crystals by Element</a></li><li><a href="/search/">Search</a></li></ul></div>
 <div><h4>Healing</h4><ul><li><a href="/healing/">Crystals by Intention</a></li><li><a href="/chakras/">Chakra Stones</a></li><li><a href="/zodiac/">Zodiac Crystals</a></li><li><a href="/birthstones/">Birthstones</a></li></ul></div>
 <div><h4>Learn</h4><ul>${guides.slice(0, 5).map((g) => `<li><a href="/guides/${g.slug}/">${esc(g.title)}</a></li>`).join("")}</ul></div>
-<div><h4>Gemmms</h4><ul><li><a href="/about/">About Us</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/image-credits/">Image Credits</a></li></ul></div>
+<div><h4>Gemmms</h4><ul><li><a href="/about/">About Us</a></li><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/image-credits/">Image Credits</a></li></ul></div>
 </div>
 <div class="legal">The information on Gemmms is shared for educational and spiritual interest. Crystal healing is a complementary practice and is not a substitute for professional medical advice, diagnosis or treatment. Always consult a qualified health professional about medical concerns.<br>&copy; 2024&ndash;${new Date().getFullYear()} Gemmms.com &middot; Crystal photographs courtesy of Wikimedia Commons contributors (see <a href="/image-credits/">image credits</a>).</div>
 </footer>
@@ -189,7 +190,7 @@ function crystalPage(c, i) {
 <div class="meta">${esc(c.family)} &middot; ${esc(c.rarity)} &middot; Last updated ${TODAY}</div>
 <div class="infobox">
 <div class="ib-title">${esc(c.name)}</div>
-<figure><img src="${large(c)}" alt="${esc(name)} specimen" width="${img?.width || 300}" height="${img?.height || 300}" fetchpriority="high"><figcaption>${credit}</figcaption></figure>
+<figure><img src="${large(c)}" alt="${img ? esc(name) + " specimen" : "No image available"}" width="${img?.width || 300}" height="${img?.height || 300}" fetchpriority="high">${img ? `<figcaption>${credit}</figcaption>` : ""}</figure>
 <table>
 <tr><td colspan="2" class="sec">Metaphysical</td></tr>
 ${row("Keywords", esc(list(c.keywords)))}
@@ -251,7 +252,7 @@ ${relatedPick.length ? `<h2>Related Crystals</h2>${cards(relatedPick)}` : ""}
   const jsonld = [
     {
       "@context": "https://schema.org", "@type": "Article", headline: `${c.name}: Meaning, Healing Properties & Uses`, description: c.summary,
-      image: SITE + large(c), datePublished: published, dateModified: TODAY, mainEntityOfPage: SITE + crystalUrl(c),
+      ...(img ? { image: SITE + large(c) } : {}), datePublished: published, dateModified: TODAY, mainEntityOfPage: SITE + crystalUrl(c),
       author: { "@type": "Organization", name: "Gemmms", url: SITE + "/about/" },
       publisher: { "@type": "Organization", name: "Gemmms", logo: { "@type": "ImageObject", url: SITE + "/android-chrome-512x512.png" } },
       about: { "@type": "Thing", name: c.name, alternateName: c.aka || [] },
@@ -264,7 +265,7 @@ ${relatedPick.length ? `<h2>Related Crystals</h2>${cards(relatedPick)}` : ""}
     description: c.summary,
     body,
     crumbs: [["/crystals/", "Crystals"], [crystalUrl(c), c.name]],
-    jsonld, image: large(c), type: "article", modified: TODAY, priority: 0.8,
+    jsonld, image: img ? large(c) : undefined, type: "article", modified: TODAY, priority: 0.8,
   });
 }
 
@@ -490,27 +491,19 @@ const staticPages = [
 <h2>Our approach to healing claims</h2>
 <p>We respect crystal healing as a spiritual and complementary practice. We do not claim that any stone cures or treats illness, and nothing on this site is medical advice. Please read our <a href="/disclaimer/">disclaimer</a>.</p>
 <h2>Photographs</h2>
-<p>Wherever possible we show real, unretouched specimens photographed by mineral collectors, museums and photographers who share their work under free licenses on Wikimedia Commons. Each photo is credited on its page and on our <a href="/image-credits/">image credits</a> page.</p>
-<h2>Get in touch</h2>
-<p>Spotted an error, or know lore we have missed? We would love to hear from you on our <a href="/contact/">contact page</a>.</p>`],
-  ["contact", "Contact Us", "Contact the Gemmms team with corrections, suggestions, image questions or partnership enquiries.", `<h1>Contact Us</h1>
-<p class="lede">We read every message and update entries regularly based on reader suggestions.</p>
-<p>Email: <a href="mailto:${esc(config.contactEmail)}">${esc(config.contactEmail)}</a></p>
-<h2>What to write to us about</h2>
-<ul><li><b>Corrections:</b> mineral data, localities or history you believe is wrong. Please include a source if you can.</li><li><b>Missing stones:</b> crystals you would like to see added.</li><li><b>Photographs:</b> if you are the author of a photo and want the credit changed or the image removed.</li><li><b>Advertising and partnerships.</b></li></ul>
-<p>We cannot give personal medical advice or diagnose health conditions. For health concerns, please speak with a qualified professional.</p>`],
+<p>Wherever possible we show real, unretouched specimens photographed by mineral collectors, museums and photographers who share their work under free licenses on Wikimedia Commons. Each photo is credited on its page and on our <a href="/image-credits/">image credits</a> page.</p>`],
   ["privacy-policy", "Privacy Policy", "How Gemmms collects, uses and protects information, including cookies, Google Analytics and Google AdSense advertising.", `<h1>Privacy Policy</h1>
 <p class="meta">Last updated: ${TODAY}</p>
 <p>This Privacy Policy explains how Gemmms.com ("Gemmms", "we", "us") handles information when you visit our website.</p>
 <h2>Information we collect</h2>
-<p>We do not ask you to create an account and we do not sell personal information. When you visit, our hosting provider and analytics tools automatically receive standard technical information such as your IP address, browser type, device, referring page, pages viewed and the date and time of your visit. If you email us, we receive your email address and the contents of your message, which we use only to reply.</p>
+<p>We do not ask you to create an account and we do not sell personal information. When you visit, our hosting provider and analytics tools automatically receive standard technical information such as your IP address, browser type, device, referring page, pages viewed and the date and time of your visit.</p>
 <h2>Cookies and analytics</h2>
 <p>We use Google Analytics to understand which pages are useful and how visitors find us. Google Analytics uses cookies and similar technologies to collect usage information. You can learn more at <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener">How Google uses information from sites that use its services</a> and opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener">Google Analytics opt-out browser add-on</a>.</p>
 <h2>Advertising</h2>
 <p>Gemmms is supported by advertising. We use Google AdSense to display ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this and/or other sites on the Internet.</p>
 <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="nofollow noopener">Google Ads Settings</a>. You can also opt out of some third-party vendors' use of cookies for personalized advertising at <a href="https://www.aboutads.info/choices/" rel="nofollow noopener">www.aboutads.info</a>. Visitors in the European Economic Area, the United Kingdom and Switzerland are shown a consent message, managed through a Google-certified consent management platform, before personalized ads are served.</p>
 <h2>Your rights</h2>
-<p>Depending on where you live (for example under the GDPR or the California Consumer Privacy Act), you may have the right to access, correct or delete personal information we hold about you, or to object to certain processing. Contact us at <a href="mailto:${esc(config.contactEmail)}">${esc(config.contactEmail)}</a> and we will respond within 30 days.</p>
+<p>Depending on where you live (for example under the GDPR or the California Consumer Privacy Act), you may have the right to access, correct or delete personal information we hold about you, or to object to certain processing. Gemmms itself does not collect or store personal information about visitors; data collected by Google Analytics and Google AdSense can be managed through the Google links above.</p>
 <h2>Children</h2>
 <p>Gemmms is a general-audience site and is not directed at children under 13. We do not knowingly collect personal information from children.</p>
 <h2>Third-party links</h2>
@@ -547,7 +540,7 @@ for (const [slug, title, description, body] of staticPages) page(`/${slug}/`, { 
   page("/image-credits/", {
     title: "Image Credits", description: "Credits and licenses for the crystal and mineral photographs used on Gemmms, sourced from Wikimedia Commons contributors.", full: true,
     crumbs: [["/image-credits/", "Image Credits"]],
-    body: `<h1>Image Credits</h1><p>Crystal photographs on Gemmms are sourced from <a href="https://commons.wikimedia.org/" rel="nofollow noopener">Wikimedia Commons</a> and used under the free licenses shown below. Images were resized and converted to WebP; no other changes were made unless noted. Our thanks to every photographer and institution who shares their work. If you are an author and would like a credit changed, please <a href="/contact/">contact us</a>.</p>
+    body: `<h1>Image Credits</h1><p>Crystal photographs on Gemmms are sourced from <a href="https://commons.wikimedia.org/" rel="nofollow noopener">Wikimedia Commons</a> and used under the free licenses shown below. Images were resized and converted to WebP; no other changes were made unless noted. Our thanks to every photographer and institution who shares their work.</p>
 <table class="data"><thead><tr><th>Crystal</th><th>Author</th><th>License</th><th>Source file</th></tr></thead><tbody>${rows.join("")}</tbody></table>`,
     priority: 0.2,
   });

@@ -9,13 +9,15 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace
 const CRYSTALS = path.join(ROOT, "content", "crystals");
 const OUT = path.join(ROOT, "public", "img", "crystals");
 const CREDITS = path.join(ROOT, "content", "images.json");
-const UA = "GemmmsImageFetcher/1.0 (https://www.gemmms.com/contact/)";
+const UA = "GemmmsImageFetcher/1.0 (https://www.gemmms.com/)";
 
 const args = process.argv.slice(2);
 const force = args.includes("--force");
 const only = args.filter((a) => !a.startsWith("--"));
 
 const OVERRIDES = fs.existsSync(path.join(ROOT, "content", "image-overrides.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "content", "image-overrides.json"), "utf8")) : {};
+const SKIP = fs.existsSync(path.join(ROOT, "content", "image-skip.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "content", "image-skip.json"), "utf8")) : { slugs: [], blockedFiles: [] };
+const BLOCKED = new Set(SKIP.blockedFiles || []);
 const credits = fs.existsSync(CREDITS) ? JSON.parse(fs.readFileSync(CREDITS, "utf8")) : {};
 const used = new Set(Object.values(credits).map((c) => c.file));
 fs.mkdirSync(OUT, { recursive: true });
@@ -34,10 +36,15 @@ async function api(host, params) {
 const BAD = /\b(map|logo|diagram|chart|stamp|coat of arms|flag|svg|structure|graph|locator|mine entrance|portrait|signature|museum building|ring|earring|necklace|pendant|bracelet|jewel|brooch|tiara)\b/i;
 const strip = (s) => (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 
-async function imageInfo(file) {
+// A Commons photo is only accepted when its categories or title look like a mineral specimen.
+const MINERAL = /mineral|gem|crystal|rock|geolog|specimen|quartz|agate|jasper|opal|calcite|fossil|amber|pearl|meteorit|tektite|obsidian|ore\b|stone|jade|beryl|garnet|tourmaline|feldspar|corundum|sapphire|ruby|topaz|fluorite|silicate|oxide|sulfide|carbonate|sulfate|phosphate|natural history|museum/i;
+async function imageInfo(file, requireMineral = true) {
+  if (BLOCKED.has(file)) return null;
   const d = await api("commons.wikimedia.org", {
     action: "query", titles: file, prop: "imageinfo", iiprop: "url|mime|size|extmetadata", iiurlwidth: "900",
   });
+  const cats = d.query?.pages?.[0]?.imageinfo?.[0]?.extmetadata?.Categories?.value || "";
+  if (requireMineral && !MINERAL.test(cats + " " + file)) return null;
   const p = d.query?.pages?.[0];
   const ii = p?.imageinfo?.[0];
   if (!ii || !/jpeg|png|webp/.test(ii.mime) || ii.width < 300) return null;
@@ -59,7 +66,7 @@ async function fromWiki(title) {
   const d = await api("en.wikipedia.org", { action: "query", titles: title, prop: "pageimages", piprop: "name", redirects: "1" });
   const name = d.query?.pages?.[0]?.pageimage;
   if (!name) return null;
-  return imageInfo("File:" + name);
+  return imageInfo("File:" + name, false);
 }
 
 async function fromCommons(query, keyword) {
@@ -116,7 +123,7 @@ const files = fs.readdirSync(CRYSTALS).filter((f) => f.endsWith(".json"));
 const todo = files
   .map((f) => { try { return JSON.parse(fs.readFileSync(path.join(CRYSTALS, f), "utf8")); } catch { console.log(`  ! skipping unparseable ${f}`); return null; } })
   .filter(Boolean)
-  .filter((c) => (only.length ? only.includes(c.slug) : true))
+  .filter((c) => (only.length ? only.includes(c.slug) : !(SKIP.slugs || []).includes(c.slug)))
   .filter((c) => force || !credits[c.slug] || !fs.existsSync(path.join(OUT, `${c.slug}.webp`)));
 
 console.log(`Fetching ${todo.length} image(s)...`);

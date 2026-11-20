@@ -13,11 +13,12 @@ The site is plain static HTML made by a small Node script, with no framework or 
 | `content/guides/*.json` | Long-form guide articles (HTML body) |
 | `content/taxonomy.json` | Intro text for chakra, zodiac, color, intention, family and element hub pages |
 | `content/images.json` | Photo attribution (author, license, source) for every crystal image |
+| `content/image-skip.json` | Stones with no suitable photo (they show "No image available") and photo files that must never be used. `npm run images` skips these stones unless you name one explicitly, e.g. `npm run images -- super-seven` |
 | `public/` | Static files copied as-is (CSS, icons, crystal photos in `public/img/crystals/`) |
 | `scripts/build.mjs` | Generates `dist/` |
 | `scripts/fetch-images.mjs` | Downloads freely licensed photos from Wikimedia Commons and converts them to WebP |
 | `src/worker.js` | Redirects `gemmms.com` to `www.gemmms.com`, then serves `dist/` |
-| `site.config.json` | Site URL, Google Analytics ID, AdSense client ID, contact email |
+| `site.config.json` | Site URL, Google Analytics ID, AdSense client ID |
 
 ## Commands
 

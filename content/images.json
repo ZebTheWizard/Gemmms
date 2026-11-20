@@ -116,15 +116,6 @@
     "width": 500,
     "height": 562
   },
-  "ammonite": {
-    "file": "File:Studded Ammonites Modiolaris.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Studded_Ammonites_Modiolaris.jpg",
-    "artist": "Paul La Vergne, drawing. Michael van der Gucht, engraver. John Morton, author.",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 449,
-    "height": 445
-  },
   "amphibole-quartz": {
     "file": "File:Amphibole-Group-221255.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Amphibole-Group-221255.jpg",
@@ -214,15 +205,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 800,
     "height": 607
-  },
-  "aqua-aura-quartz": {
-    "file": "File:Aquaaura b.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Aquaaura_b.jpg",
-    "artist": "furry_yui",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 640,
-    "height": 480
   },
   "aquamarine": {
     "file": "File:Aquamarine P1000141.JPG",
@@ -341,15 +323,6 @@
     "width": 800,
     "height": 540
   },
-  "black-agate": {
-    "file": "File:Ford F-150 Limited P702 Agate Black (2).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Limited_P702_Agate_Black_(2).jpg",
-    "artist": "Damian B Oh",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 600
-  },
   "black-calcite": {
     "file": "File:Black calcite from Kurdistan, Iraq. Erbil Stones and Gems Museum, Erbil Citadel, Hawler, Iraq.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Black_calcite_from_Kurdistan,_Iraq._Erbil_Stones_and_Gems_Museum,_Erbil_Citadel,_Hawler,_Iraq.jpg",
@@ -458,15 +431,6 @@
     "width": 800,
     "height": 800
   },
-  "blue-aventurine": {
-    "file": "File:Blue and golden-toned aventurine glass vase MET ES36.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Blue_and_golden-toned_aventurine_glass_vase_MET_ES36.jpg",
-    "artist": "Unknown",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 402,
-    "height": 700
-  },
   "blue-calcite": {
     "file": "File:Calcite - Blue (2933075912).jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Calcite_-_Blue_(2933075912).jpg",
@@ -565,15 +529,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "width": 800,
     "height": 1067
-  },
-  "boji-stones": {
-    "file": "File:Конкреции в Западном Казахстане. Concretions. Western Kazakhstan.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D0%BA%D1%80%D0%B5%D1%86%D0%B8%D0%B8_%D0%B2_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%BE%D0%BC_%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5._Concretions._Western_Kazakhstan.JPG",
-    "artist": "Alexandr Babkin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 480
   },
   "bornite": {
     "file": "File:Bornite-Quartz-135210.jpg",
@@ -674,24 +629,6 @@
     "width": 800,
     "height": 573
   },
-  "candle-quartz": {
-    "file": "File:German - Pair of Rock Crystal Candlesticks - Walters 4182, 4183.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:German_-_Pair_of_Rock_Crystal_Candlesticks_-_Walters_4182,_4183.jpg",
-    "artist": "German (?) Swiss (?)",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 1164
-  },
-  "caribbean-calcite": {
-    "file": "File:Meoma ventricosa (red heart urchin) (Grand Cayman Island, Caribbean Sea) 3.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Meoma_ventricosa_(red_heart_urchin)_(Grand_Cayman_Island,_Caribbean_Sea)_3.jpg",
-    "artist": "James St. John",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 883
-  },
   "carnelian": {
     "file": "File:Carnelian sard (mineral specimen).jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Carnelian_sard_(mineral_specimen).jpg",
@@ -709,15 +646,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 800,
     "height": 825
-  },
-  "cathedral-quartz": {
-    "file": "File:Amethyst and drusy quartz cathedrals in Crystal Mountain Museum.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Amethyst_and_drusy_quartz_cathedrals_in_Crystal_Mountain_Museum.jpg",
-    "artist": "Pseudopanax at English Wikipedia",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 533
   },
   "cats-eye": {
     "file": "File:Catseyechrysoberyl.jpg",
@@ -1043,15 +971,6 @@
     "width": 800,
     "height": 528
   },
-  "dravite": {
-    "file": "File:Dravite-1948-NaO.png",
-    "source": "https://commons.wikimedia.org/wiki/File:Dravite-1948-NaO.png",
-    "artist": "Bubenik",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 427
-  },
   "dumortierite": {
     "file": "File:Dumortiérite.JPG",
     "source": "https://commons.wikimedia.org/wiki/File:Dumorti%C3%A9rite.JPG",
@@ -1160,15 +1079,6 @@
     "width": 800,
     "height": 584
   },
-  "fire-quartz": {
-    "file": "File:Tundra fire, 2015, Mingvk Lake Fire, Quartz Creek, Seward Peninsula, AK.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Tundra_fire,_2015,_Mingvk_Lake_Fire,_Quartz_Creek,_Seward_Peninsula,_AK.jpg",
-    "artist": "Arctic flora fun",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 536
-  },
   "flint": {
     "file": "File:Miorcani flint.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Miorcani_flint.jpg",
@@ -1204,15 +1114,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 667
-  },
-  "garden-quartz": {
-    "file": "File:National Rock Garden - Bendigo metasandstone and Ballarat quartz.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:National_Rock_Garden_-_Bendigo_metasandstone_and_Ballarat_quartz.jpg",
-    "artist": "Quasquith",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "width": 800,
-    "height": 600
   },
   "garnet": {
     "file": "File:Garnet Andradite20.jpg",
@@ -1331,33 +1232,6 @@
     "width": 800,
     "height": 600
   },
-  "green-opal": {
-    "file": "File:Green Opal (4034873682).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Opal_(4034873682).jpg",
-    "artist": "Helgi Halldórsson from Reykjavík, Iceland",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 800,
-    "height": 870
-  },
-  "green-sapphire": {
-    "file": "File:Green Sapphire, Heliophorus androcles (8739585260).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Sapphire,_Heliophorus_androcles_(8739585260).jpg",
-    "artist": "pamsai, 200K views, thank you",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 800,
-    "height": 800
-  },
-  "green-tourmaline": {
-    "file": "File:Verdelite (green) tourmaline, muscovite, quartz (26043659821).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Verdelite_(green)_tourmaline,_muscovite,_quartz_(26043659821).jpg",
-    "artist": "Jan Helebrant",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 800,
-    "height": 600
-  },
   "grossular": {
     "file": "File:Grossular-4jg61a.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Grossular-4jg61a.jpg",
@@ -1366,15 +1240,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 720,
     "height": 699
-  },
-  "hackmanite": {
-    "file": "File:Flexible hackmanite film.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Flexible_hackmanite_film.jpg",
-    "artist": "Symbioosi",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "width": 800,
-    "height": 533
   },
   "halite": {
     "file": "File:Halit (NaCl) - Kopalnia soli Wieliczka, Polska.jpg",
@@ -1484,15 +1349,6 @@
     "width": 800,
     "height": 532
   },
-  "holly-blue-agate": {
-    "file": "File:Malawi Agate (Malawi, southeastern Africa) (32734668126).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Malawi_Agate_(Malawi,_southeastern_Africa)_(32734668126).jpg",
-    "artist": "James St. John",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 663
-  },
   "honey-calcite": {
     "file": "File:Honey calcite from Morocco. Erbil Stones and Gems Museum, Erbil Citadel, Hawler, Iraq.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Honey_calcite_from_Morocco._Erbil_Stones_and_Gems_Museum,_Erbil_Citadel,_Hawler,_Iraq.jpg",
@@ -1501,15 +1357,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 897
-  },
-  "honey-opal": {
-    "file": "File:Nano honey comb in form of inverse opal for molecular recognition.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Nano_honey_comb_in_form_of_inverse_opal_for_molecular_recognition.jpg",
-    "artist": "Akmarall",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "width": 629,
-    "height": 839
   },
   "howlite": {
     "file": "File:Howlite - turkenite.jpg",
@@ -1529,15 +1376,6 @@
     "width": 800,
     "height": 600
   },
-  "imperial-jasper": {
-    "file": "File:Imperial Jasper point (Mexico) 3.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Imperial_Jasper_point_(Mexico)_3.jpg",
-    "artist": "James St. John",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 1152
-  },
   "imperial-topaz": {
     "file": "File:Imperial topaz NHMLA.png",
     "source": "https://commons.wikimedia.org/wiki/File:Imperial_topaz_NHMLA.png",
@@ -1555,15 +1393,6 @@
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "width": 800,
     "height": 619
-  },
-  "infinite-stone": {
-    "file": "File:Infinite spiral stairs (Unsplash).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Infinite_spiral_stairs_(Unsplash).jpg",
-    "artist": "Ludde Lorentz luddelorentz",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 800,
-    "height": 600
   },
   "iolite": {
     "file": "File:Cordiérite var. iolite 3.jpg",
@@ -1682,15 +1511,6 @@
     "width": 800,
     "height": 615
   },
-  "lava-stone": {
-    "file": "File:Amulet depicting the heart, lava stone - Museo Egizio, Turin C 1208 p01.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Amulet_depicting_the_heart,_lava_stone_-_Museo_Egizio,_Turin_C_1208_p01.jpg",
-    "artist": "Unknown",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 800,
-    "height": 1210
-  },
   "lavender-jade": {
     "file": "File:Lavender jadeitite (jadeite jade) (Hpakan-Tawmaw Jade Tract, Hpakan Ultramafic Body, Naga-Adaman Ophiolite, Late Jurassic, 147 Ma; alluvial clast (placer jade) (14925435180).jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Lavender_jadeitite_(jadeite_jade)_(Hpakan-Tawmaw_Jade_Tract,_Hpakan_Ultramafic_Body,_Naga-Adaman_Ophiolite,_Late_Jurassic,_147_Ma;_alluvial_clast_(placer_jade)_(14925435180).jpg",
@@ -1726,15 +1546,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 800
-  },
-  "leopardskin-jasper": {
-    "file": "File:Roccia Pelle di Leopardo 1.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:Roccia_Pelle_di_Leopardo_1.JPG",
-    "artist": "it:User: Angelorenzi",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 600
   },
   "lepidolite": {
     "file": "File:Boromuscovite-Lepidolite-ch38a.jpg",
@@ -1772,15 +1583,6 @@
     "width": 532,
     "height": 668
   },
-  "madeira-citrine": {
-    "file": "File:Citrine taillee.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Citrine_taillee.jpg",
-    "artist": "Didier Descouens",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 633
-  },
   "magnesite": {
     "file": "File:Magnesite-121892.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Magnesite-121892.jpg",
@@ -1798,15 +1600,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 686,
     "height": 700
-  },
-  "mahogany-jasper": {
-    "file": "File:Jasper outcrop in the Bucegi Mountains.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Jasper_outcrop_in_the_Bucegi_Mountains.jpg",
-    "artist": "Tommy from Arad",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 569
   },
   "mahogany-obsidian": {
     "file": "File:Mahogany Obsidian.jpg",
@@ -1961,15 +1754,6 @@
     "width": 750,
     "height": 750
   },
-  "mother-of-pearl": {
-    "file": "File:Three carved mother of pearl shells.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Three_carved_mother_of_pearl_shells.jpg",
-    "artist": "EyeTrick",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "width": 800,
-    "height": 600
-  },
   "muscovite": {
     "file": "File:Muscovite-Albite-122887.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Muscovite-Albite-122887.jpg",
@@ -2005,15 +1789,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 640
-  },
-  "new-jade": {
-    "file": "File:Island Eastern Corridor near New Jade Garden.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Island_Eastern_Corridor_near_New_Jade_Garden.jpg",
-    "artist": "Ceeseven",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 600
   },
   "nuummite": {
     "file": "File:Nuummite.jpg",
@@ -2078,15 +1853,6 @@
     "width": 800,
     "height": 600
   },
-  "optical-calcite": {
-    "file": "File:Diagrams of optical phenomena, including the rainbow, the double Icelandic spar, and prism refraction LCCN92518614.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Diagrams_of_optical_phenomena,_including_the_rainbow,_the_double_Icelandic_spar,_and_prism_refraction_LCCN92518614.jpg",
-    "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 1061
-  },
   "orange-calcite": {
     "file": "File:Calcite orange.JPG",
     "source": "https://commons.wikimedia.org/wiki/File:Calcite_orange.JPG",
@@ -2122,24 +1888,6 @@
     "licenseUrl": "",
     "width": 800,
     "height": 514
-  },
-  "paraiba-tourmaline": {
-    "file": "File:Paraiba tourmalines.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Paraiba_tourmalines.jpg",
-    "artist": "Mauro Cateb",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 942
-  },
-  "peach-aventurine": {
-    "file": "File:Aventurine.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Aventurine.jpg",
-    "artist": "Doobuzz at English Wikipedia",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "width": 800,
-    "height": 600
   },
   "peach-moonstone": {
     "file": "File:Moonstone NHMLA.png",
@@ -2267,15 +2015,6 @@
     "width": 585,
     "height": 1040
   },
-  "pink-opal": {
-    "file": "File:Iris Germanica Barbata Elatior group 'Pink Opal' flower.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Iris_Germanica_Barbata_Elatior_group_%27Pink_Opal%27_flower.jpg",
-    "artist": "Paradise Chronicle",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 533
-  },
   "pink-sapphire": {
     "file": "File:Sapphire pink oval 1.90cts.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Sapphire_pink_oval_1.90cts.jpg",
@@ -2339,15 +2078,6 @@
     "width": 800,
     "height": 1067
   },
-  "preseli-bluestone": {
-    "file": "File:Bluestone Pillar, Preseli Hills - geograph.org.uk - 4815890.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Bluestone_Pillar,_Preseli_Hills_-_geograph.org.uk_-_4815890.jpg",
-    "artist": "Becky Williamson",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 640,
-    "height": 427
-  },
   "purple-fluorite": {
     "file": "File:Purple fluorite NHMLA.png",
     "source": "https://commons.wikimedia.org/wiki/File:Purple_fluorite_NHMLA.png",
@@ -2356,15 +2086,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 867
-  },
-  "purple-tourmaline": {
-    "file": "File:Tourmaline-121240.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Tourmaline-121240.jpg",
-    "artist": "Robert M. Lavinsky",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 600,
-    "height": 439
   },
   "purpurite": {
     "file": "File:Purpurite - Sandamab Pegmatite, Erongo Region, Namibia 2.jpg",
@@ -2402,24 +2123,6 @@
     "width": 800,
     "height": 674
   },
-  "rainbow-aura-quartz": {
-    "file": "File:Cosmoaura a.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosmoaura_a.jpg",
-    "artist": "furry_yui",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 532
-  },
-  "rainbow-fluorite": {
-    "file": "File:3192M-fluorite1.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:3192M-fluorite1.jpg",
-    "artist": "CarlesMillan",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 800,
-    "height": 702
-  },
   "rainbow-garnet": {
     "file": "File:Rainbow Andradite Crystal.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Rainbow_Andradite_Crystal.jpg",
@@ -2447,15 +2150,6 @@
     "width": 800,
     "height": 661
   },
-  "rainforest-jasper": {
-    "file": "File:Rainforest Jasper and Copper Earrings.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Rainforest_Jasper_and_Copper_Earrings.jpg",
-    "artist": "Heather (original picture), modification: Mielon",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 499
-  },
   "record-keeper-quartz": {
     "file": "File:Clear double-terminated quartz point with dark inclusions, King Citrine Mine.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Clear_double-terminated_quartz_point_with_dark_inclusions,_King_Citrine_Mine.jpg",
@@ -2465,15 +2159,6 @@
     "width": 800,
     "height": 1063
   },
-  "red-aventurine": {
-    "file": "File:Aventurine.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Aventurine.jpg",
-    "artist": "Doobuzz at English Wikipedia",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "width": 800,
-    "height": 600
-  },
   "red-beryl": {
     "file": "File:Beryl-23651.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Beryl-23651.jpg",
@@ -2482,15 +2167,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 367,
     "height": 600
-  },
-  "red-calcite": {
-    "file": "File:Fluorescence in calcite.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Fluorescence_in_calcite.jpg",
-    "artist": "Jan Pavelka",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 533
   },
   "red-coral": {
     "file": "File:Branched coral on cliff edge at Halahi Reef, Red Sea (37871560135).jpg",
@@ -2573,15 +2249,6 @@
     "width": 800,
     "height": 609
   },
-  "royal-plume-jasper": {
-    "file": "File:Jasper outcrop in the Bucegi Mountains.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Jasper_outcrop_in_the_Bucegi_Mountains.jpg",
-    "artist": "Tommy from Arad",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 569
-  },
   "rubellite": {
     "file": "File:Tourmaline-280362.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Tourmaline-280362.jpg",
@@ -2599,15 +2266,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 800,
     "height": 752
-  },
-  "ruby-in-fuchsite": {
-    "file": "File:Verdite (microcrystalline fuchsite metamorphite) South Africa.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Verdite_(microcrystalline_fuchsite_metamorphite)_South_Africa.jpg",
-    "artist": "James St. John",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 537
   },
   "ruby-in-kyanite": {
     "file": "File:Ruby - Winza, Tanzania.jpg",
@@ -2653,15 +2311,6 @@
     "licenseUrl": "",
     "width": 800,
     "height": 1079
-  },
-  "sardonyx": {
-    "file": "File:Lennon's Sardonyx guitar.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Lennon%27s_Sardonyx_guitar.jpg",
-    "artist": "Rodhullandemu",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 337
   },
   "scapolite": {
     "file": "File:Scapolite, elbaïte, cleavelandite 7100.1.2830.jpg",
@@ -2726,15 +2375,6 @@
     "width": 800,
     "height": 518
   },
-  "shiva-lingam": {
-    "file": "File:A Little Girl Praying to the Lord Shiva Lingam – Mahashivaratri 2025 - 070A2856.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:A_Little_Girl_Praying_to_the_Lord_Shiva_Lingam_%E2%80%93_Mahashivaratri_2025_-_070A2856.jpg",
-    "artist": "Bijay Chaurasia",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 572
-  },
   "shungite": {
     "file": "File:Шунгит.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:%D0%A8%D1%83%D0%BD%D0%B3%D0%B8%D1%82.jpg",
@@ -2752,15 +2392,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 768,
     "height": 1024
-  },
-  "silver-leaf-jasper": {
-    "file": "File:Jasper outcrop in the Bucegi Mountains.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Jasper_outcrop_in_the_Bucegi_Mountains.jpg",
-    "artist": "Tommy from Arad",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 569
   },
   "skeletal-quartz": {
     "file": "File:Skeletal quartz (Zhob District, Pakistan) 2 (34255918720).jpg",
@@ -2780,15 +2411,6 @@
     "width": 800,
     "height": 800
   },
-  "smoky-citrine": {
-    "file": "File:Large light smoky quartz crystals with crevassed glacier and peak, King Citrine Mine.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Large_light_smoky_quartz_crystals_with_crevassed_glacier_and_peak,_King_Citrine_Mine.jpg",
-    "artist": "AdamKelliher",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 800,
-    "height": 603
-  },
   "smoky-quartz": {
     "file": "File:Smoky-quartz-TUCQTZ09-03-arkenstone-irocks.png",
     "source": "https://commons.wikimedia.org/wiki/File:Smoky-quartz-TUCQTZ09-03-arkenstone-irocks.png",
@@ -2797,15 +2419,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "width": 800,
     "height": 1488
-  },
-  "snow-quartz": {
-    "file": "File:White Quartz, White Snow - geograph.org.uk - 1801262.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:White_Quartz,_White_Snow_-_geograph.org.uk_-_1801262.jpg",
-    "artist": "Anne Burgess",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 640,
-    "height": 427
   },
   "snowflake-obsidian": {
     "file": "File:Snowflake obsidian 5.jpg",
@@ -2870,15 +2483,6 @@
     "width": 800,
     "height": 632
   },
-  "spirit-quartz": {
-    "file": "File:Spirit Mars Silica April 20 2007.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Spirit_Mars_Silica_April_20_2007.jpg",
-    "artist": "Unknown",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 512,
-    "height": 512
-  },
   "spodumene": {
     "file": "File:Spodumene-253941.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Spodumene-253941.jpg",
@@ -2896,15 +2500,6 @@
     "licenseUrl": "",
     "width": 800,
     "height": 600
-  },
-  "star-ruby": {
-    "file": "File:Maharlika Star Ruby 2.1 kilograms is World's Largest.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Maharlika_Star_Ruby_2.1_kilograms_is_World%27s_Largest.jpg",
-    "artist": "TheMaharlikan",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 800,
-    "height": 1067
   },
   "star-sapphire": {
     "file": "File:Star of Bombay in hands.jpg",
@@ -2951,15 +2546,6 @@
     "width": 800,
     "height": 633
   },
-  "strawberry-quartz": {
-    "file": "File:I brought some anchors from Strawberry, a slap of Coconino Sandstone and a small quartz nodule. (15529982247).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:I_brought_some_anchors_from_Strawberry,_a_slap_of_Coconino_Sandstone_and_a_small_quartz_nodule._(15529982247).jpg",
-    "artist": "cogdogblog",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 533
-  },
   "stromatolite": {
     "file": "File:Stromatolithe Paléoarchéen - MNHT.PAL.2009.10.1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Stromatolithe_Pal%C3%A9oarch%C3%A9en_-_MNHT.PAL.2009.10.1.jpg",
@@ -2995,15 +2581,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "width": 800,
     "height": 662
-  },
-  "super-seven": {
-    "file": "File:Caterham Super Seven 2000 at Lotus shop in Tokyo.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Caterham_Super_Seven_2000_at_Lotus_shop_in_Tokyo.jpg",
-    "artist": "Syced",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 800,
-    "height": 600
   },
   "taaffeite": {
     "file": "File:Magnesiotaaffeite-2N2S-53105.jpg",
@@ -3068,15 +2645,6 @@
     "width": 800,
     "height": 1118
   },
-  "tiffany-stone": {
-    "file": "File:Emeralds and tiffany stone (4716265960).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Emeralds_and_tiffany_stone_(4716265960).jpg",
-    "artist": "Deidre Woollard",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 536
-  },
   "tiger-iron": {
     "file": "File:Tiger Iron5.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Tiger_Iron5.jpg",
@@ -3094,15 +2662,6 @@
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "width": 800,
     "height": 555
-  },
-  "titanium-quartz": {
-    "file": "File:Citizen \"Orca\" 200m titanium Diver watch (turned, without background).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Citizen_%22Orca%22_200m_titanium_Diver_watch_(turned,_without_background).jpg",
-    "artist": "File:Citizen \"Orca\" 200m titanium.jpg: Guillaume PILLET derivative work: Pittigrilli",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 943
   },
   "topaz": {
     "file": "File:Topaz-38487.jpg",
@@ -3130,15 +2689,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "width": 800,
     "height": 668
-  },
-  "tree-agate": {
-    "file": "File:Tree Agate-3.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Tree_Agate-3.jpg",
-    "artist": "Angwinar",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "width": 800,
-    "height": 1067
   },
   "tsavorite": {
     "file": "File:Graphite-Grossular-Strontiumapatite-d06-195a.jpg",
@@ -3266,33 +2816,6 @@
     "width": 800,
     "height": 467
   },
-  "white-sapphire": {
-    "file": "File:White-chinned sapphire (Hylocharis cyanus) - BioDivLibrary.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:White-chinned_sapphire_(Hylocharis_cyanus)_-_BioDivLibrary.jpg",
-    "artist": "Biodiversity Heritage Library",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 1298
-  },
-  "white-topaz": {
-    "file": "File:Topaz, Utah. One corner of the Topaz Relocation Center. White buildings at the right are the milit . . . - NARA - 538680.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Topaz,_Utah._One_corner_of_the_Topaz_Relocation_Center._White_buildings_at_the_right_are_the_milit_._._._-_NARA_-_538680.jpg",
-    "artist": "Tom Parker",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "width": 800,
-    "height": 791
-  },
-  "window-quartz": {
-    "file": "File:Solution window in dolostone (Prairie du Chien Group, Ordovician; Crystal Cave, near Spring Valley, Wisconsin, USA) 6 (18955862082).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Solution_window_in_dolostone_(Prairie_du_Chien_Group,_Ordovician;_Crystal_Cave,_near_Spring_Valley,_Wisconsin,_USA)_6_(18955862082).jpg",
-    "artist": "James St. John",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 800,
-    "height": 600
-  },
   "wulfenite": {
     "file": "File:Wulfenite - Red Cloud mine, La Paz Co., Arizona, USA.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Wulfenite_-_Red_Cloud_mine,_La_Paz_Co.,_Arizona,_USA.jpg",
@@ -3310,15 +2833,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 800
-  },
-  "yellow-calcite": {
-    "file": "File:Calcite Variation.png",
-    "source": "https://commons.wikimedia.org/wiki/File:Calcite_Variation.png",
-    "artist": "PaleoNeolitic (montage creator)",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "width": 800,
-    "height": 573
   },
   "yellow-jasper": {
     "file": "File:Mottled yellow jasper scaraboid seal MET DP142814.jpg",
@@ -3346,24 +2860,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 800,
     "height": 946
-  },
-  "yellow-tourmaline": {
-    "file": "File:Tourmaline-121240.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Tourmaline-121240.jpg",
-    "artist": "Robert M. Lavinsky",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 600,
-    "height": 439
-  },
-  "yttrium-fluorite": {
-    "file": "File:3192M-fluorite1.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:3192M-fluorite1.jpg",
-    "artist": "CarlesMillan",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 800,
-    "height": 702
   },
   "zebra-jasper": {
     "file": "File:Zebra Stone (striped stone) (51245773734).jpg",
